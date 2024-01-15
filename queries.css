@@ -1,0 +1,21 @@
+/************************************/
+/*    BELOW 767px (Small Screen)   */
+/**********************************/
+
+@media (max-width: 767.98px) {
+  .img-sm-size {
+    width: 50%;
+  }
+  /* .divider {
+    max-width: 991.98px;
+  } */
+  .heading-primary {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .divider {
+    max-width: 600px;
+  }
+}
