@@ -5,7 +5,6 @@
 }
 
 html {
-  overflow-x: hidden;
 }
 
 ::selection {
@@ -22,6 +21,7 @@ body {
 
 .visuallyhidden {
   display: none;
+  overflow-x: hidden;
 }
 
 .skip-link {
@@ -51,6 +51,11 @@ header {
 
 .logo {
   height: 4.5rem;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .nav {
