@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-}
-
 ::selection {
   /* Change highlight background color to black */
   background: #642b69;
@@ -17,11 +14,11 @@ html {
 body {
   font-family: "Inter", sans-serif !important;
   background: #fbfbfb;
+  overflow-x: hidden;
 }
 
 .visuallyhidden {
   display: none;
-  overflow-x: hidden;
 }
 
 .skip-link {
