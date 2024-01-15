@@ -15,6 +15,12 @@
 }
 
 @media (max-width: 576px) {
+  .section-hero {
+    padding: 4rem 0;
+  }
+  .container-hero {
+    padding: 0 3rem;
+  }
   .divider {
     max-width: 600px;
   }
