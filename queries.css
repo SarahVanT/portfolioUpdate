@@ -2,13 +2,13 @@
 /*    BELOW 767px (Small Screen)   */
 /**********************************/
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .img-sm-size {
     width: 80%;
   }
-  /* .divider {
+  .divider {
     max-width: 991.98px;
-  } */
+  }
   .heading-primary {
     font-size: 2rem;
   }
@@ -20,7 +20,7 @@
   }
 
   .img-sm-size {
-    width: 80%;
+    width: 70%;
   }
   .section-hero {
     padding: 4rem 0;
@@ -31,4 +31,7 @@
   .divider {
     max-width: 600px;
   }
+}
+
+@media (max-width: 575px) {
 }
