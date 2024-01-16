@@ -11,10 +11,14 @@
   color: #fff;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Inter", sans-serif !important;
   background: #fbfbfb;
-  overflow-x: hidden;
 }
 
 .visuallyhidden {
