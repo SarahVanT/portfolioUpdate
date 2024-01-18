@@ -31,7 +31,6 @@
               alt="Sarah Codes logo"
               class="logo d-line-block align-top"
             />
-            <span class="visuallyhidden">Bootstrap 5</span>
           </a>
           <button
             class="navbar-toggler"
@@ -68,7 +67,7 @@
       <div class="container container-hero">
         <div class="row align-items-center">
           <div
-            class="col-12 col-md-7 col-lg-6 order-md-2 text-center text-md-end hero-img-box"
+            class="col-12 col-md-12 col-lg-6 order-lg-2 text-center text-center text-md-center text-lg-end hero-img-box"
           >
             <!-- Hero Image -->
             <img
@@ -78,7 +77,7 @@
             />
           </div>
           <div
-            class="col-12 col-md-5 col-lg-6 order-md-1 mt-sm-4 text-center text-md-start"
+            class="col-12 col-md-12 col-lg-6 order-lg-1 mt-sm-4 text-center text-md-center text-lg-start"
           >
             <!-- Hero Heading -->
             <h1 class="heading-primary mb-3 text-container">
@@ -94,11 +93,13 @@
         </div>
       </div>
     </section>
-    <div class="divider"></div>
+    <div class="container">
+      <div class="divider" aria-hidden="true"></div>
+    </div>
     <main id="main">
       <section class="container section-main mt-md-11">
         <h2 class="heading-secondary mb-3">Check out my projects</h2>
-        <p class="description">
+        <p>
           I love to learn new topics and always have projects in the works. Take
           a look at what I've worked on.
         </p>
@@ -113,11 +114,11 @@
                 class="card-image-top mb-4"
               />
               <div class="card-body">
-                <h3 class="card-title heading-tertiary">NOVO</h3>
+                <h3 class="card-title heading-tertiary">NOVO Massage Studio</h3>
                 <p class="card-text my-3">
-                  I worked with NOVO Massage Studio to re-design their website
-                  so that customers could feel calm and at peace when
-                  navigating.
+                  Transformed NOVO's website into a tranquil digital oasis,
+                  reflecting the calmness of their services with an accessible
+                  and seamless user interface.
                 </p>
                 <p class="">
                   <a href="#" class="button"
@@ -140,15 +141,16 @@
                 class="card-image-top mb-4"
               />
               <div class="card-body">
-                <h3 class="card-title heading-tertiary">NOVO</h3>
+                <h3 class="card-title heading-tertiary">Weather Application</h3>
                 <p class="card-text my-3">
-                  I worked with NOVO Massage Studio to re-design their website
-                  so that customers could feel calm and at peace when
-                  navigating.
+                  Engineered a user-friendly weather app integrating live data
+                  to deliver accurate forecasts. Focused on clean, accessible
+                  interfaces with real-time updates to keep users informed and
+                  prepared.
                 </p>
                 <p class="">
                   <a href="#" class="button"
-                    >Explore NOVO
+                    >Explore Weather App
                     <span
                       ><i
                         class="fa-solid fa-arrow-right"
@@ -160,47 +162,50 @@
             </div>
           </div>
         </div>
-        <!-- </div> -->
       </section>
-      <div class="divider"></div>
-      <section class="container section-main text-start">
-        <h2 class="heading-secondary mb-3">Learn more about me</h2>
-        <div class="row gx-5">
+      <div class="container">
+        <div class="divider" aria-hidden="true"></div>
+      </div>
+      <section class="container section-main section-about-me text-start">
+        <div class="row align-items-center">
           <div class="col-md-6">
+            <h2 class="heading-secondary mb-3">Learn more about me</h2>
             <p>
               I'm a Dayton-based coder and designer passionate about creating
-              beautiful, and accessible designs. During my teenage years, I
-              started my coding journey while playing a video game called
-              Neopets. After serving in the United States Air Force addressing
-              environmental and occupational health challenges, I dove into
-              tech. My experience includes women-focused coding workshops, a
-              UX/UI boot camp, and an accessibility design certification from
-              Udemy.
+              beautiful and accessible designs. My journey began with coding
+              during my teenage years. During my time serving in the United
+              States Air Force, I tackled environmental and occupational health
+              challenges. My coding journey includes women-focused coding
+              workshops, a UX/UI bootcamp, and accessibility design courses.
+              Beyond coding, I find calmness in yoga, curiosity in cooking, and
+              expressing my creativity through painting. I thrive on learning
+              and growing, both personally and professionally.
             </p>
+            <a href="#" class="link"
+              >Read full bio
+              <span
+                ><i
+                  class="fa-solid fa-arrow-right"
+                  aria-hidden="true"
+                ></i></span
+            ></a>
           </div>
-          <div class="col-md-6">
-            <p>
-              Beyond coding, I dedicate time to yoga and cooking, which are
-              essential for my well-being and creativity. Yoga keeps me flexible
-              and centered, while cooking allows me to explore new flavors and
-              share joy with my family and friends. Whether it's mastering a
-              challenging yoga pose or experimenting with a new recipe, I thrive
-              on learning and growing, both personally and professionally.
-            </p>
+          <div class="col-md-6 text-center">
+            <img
+              src="Untitled (17).png"
+              alt="watercolor painting of a vibrant sunset over a desert landscape"
+              class="about-me-img"
+            />
           </div>
         </div>
-        <a href="#" class="link"
-          >Read full bio
-          <span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
-        ></a>
       </section>
-      <section class="container section-main text-center d-flex flex-column">
+      <section class="container section-cta text-center d-flex flex-column">
         <h2 class="heading-secondary mb-3">Thanks for stopping by!</h2>
         <p>
           I appreciate you checking out my work!<br />Feel free to email me or
           connect through LinkedIn.
         </p>
-        <!-- <a href="mailto:email.com" class="link">email </a> -->
+
         <div class="social-links">
           <a href="#" class="button"
             >Email me
@@ -208,7 +213,7 @@
               ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
           ></a>
           <a href="#" class="button"
-            >LinkedIn Profile
+            >LinkedIn profile
             <span
               ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
           ></a>

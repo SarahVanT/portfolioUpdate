@@ -11,6 +11,10 @@
   color: #fff;
 }
 
+.copyright::selection {
+  background: black;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -102,9 +106,15 @@ a:focus {
   width: 90%;
 }
 
+.about-me-img {
+  width: 50%;
+  /* outline: 20px solid black; */
+}
+
 p {
   color: #4d4d4d;
   line-height: 1.6;
+  font-size: 1.125rem;
 }
 
 .primary-color {
@@ -115,12 +125,6 @@ p {
 .hero-description {
   color: #4d4d4d;
   font-size: 1.25rem;
-}
-
-.description {
-  font-size: 1.125rem;
-  max-width: 500px;
-  max-width: 22.75rem;
 }
 
 .heading-primary {
@@ -192,15 +196,26 @@ p {
   padding: 5rem 0;
 }
 
+.section-cta {
+  padding: 1rem 0 5rem 0;
+}
+
 .section-footer {
   padding: 5rem 0;
+}
+
+.section-main p {
+  max-width: 35rem; /* Adapts to the font size of the text */
+}
+.section-main li {
+  max-width: 35rem; /* Adapts to the font size of the text */
 }
 
 .container-hero {
   padding: 0 6rem;
 }
 
-.divider {
+/* .divider {
   background: repeating-linear-gradient(
     -45deg,
     hsla(0, 0%, 100%, 0),
@@ -213,6 +228,18 @@ p {
   position: relative;
   max-width: 1072px;
   width: 100%;
+} */
+
+.divider {
+  background: repeating-linear-gradient(
+    -45deg,
+    hsla(0, 0%, 100%, 0),
+    hsla(0, 0%, 100%, 0) 6px,
+    #e6e6e6 0,
+    #e6e6e6 8px
+  );
+  height: 12px;
+  margin: 0; /* Reset the horizontal margin to 0 */
 }
 
 /* .text-container {
@@ -228,6 +255,7 @@ p {
   display: inline-block;
   text-decoration: none;
   font-weight: 600;
+  font-size: 1.125rem;
   padding: 0.7rem 1.6rem;
   border: 2px solid #0c0c0c;
   color: #0c0c0c;
@@ -249,11 +277,26 @@ p {
 }
 
 .link {
-  /* position: relative; */
   display: inline-block;
   text-decoration: none;
+  font-size: 1.125rem;
   color: #0c0c0c;
   font-weight: 600;
+  padding: 1rem 1rem;
+  border-bottom: 2px solid transparent;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: #0c0c0c;
+  font-weight: 600;
+  box-sizing: border-box;
+  position: relative;
+  padding: 0; /* Remove padding to align with other text */
+  margin: 0; /* Remove margin to align with other text */
+  line-height: inherit;
 }
 
 .link i,
@@ -265,6 +308,26 @@ p {
 .button:hover i {
   transform: translateX(5px);
 }
+
+.link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #642b69;
+  transition: width 0.3s;
+  position: absolute;
+  left: 0;
+  bottom: -1rem;
+}
+
+.link:hover::after {
+  width: 100%;
+}
+
+/* .link:hover {
+  border-bottom: 2px solid #642b69;
+} */
 
 /* footer {
   background: #b050b8;
