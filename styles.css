@@ -372,4 +372,11 @@ footer p {
   font-size: 3rem; /* Adjust the value as needed */
   /* other styles */
   color: #642b69;
+  /* color: #0176a1; */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
