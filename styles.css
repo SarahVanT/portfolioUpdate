@@ -111,6 +111,10 @@ a:focus {
   /* outline: 20px solid black; */
 }
 
+.img-large {
+  width: 60%;
+}
+
 p {
   color: #4d4d4d;
   line-height: 1.6;
@@ -193,7 +197,7 @@ p {
 }
 
 .section-main {
-  padding: 5rem 0;
+  padding: 5rem 0.75rem;
 }
 
 .section-cta {
