@@ -112,7 +112,7 @@ a:focus {
 }
 
 .img-large {
-  width: 70%;
+  width: 80%;
 }
 
 p {
@@ -199,6 +199,9 @@ p {
 .section-main {
   padding: 5rem 0.75rem;
 }
+.section-skills {
+  padding: 5rem 0.75rem;
+}
 
 .section-cta {
   padding: 1rem 0 5rem 0;
@@ -209,10 +212,10 @@ p {
 }
 
 .section-main p {
-  max-width: 35rem; /* Adapts to the font size of the text */
+  max-width: 35rem;
 }
 .section-main li {
-  max-width: 35rem; /* Adapts to the font size of the text */
+  max-width: 35rem;
 }
 
 .container-hero {
@@ -369,14 +372,30 @@ footer p {
 }
 
 .skill-icon {
-  font-size: 3rem; /* Adjust the value as needed */
+  font-size: 3.5rem; /* Adjust the value as needed */
   /* other styles */
   color: #642b69;
   /* color: #0176a1; */
 }
 
+li {
+  padding: 0 !important;
+}
+
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.row {
+  /* Remove the default padding on the left */
+  padding-left: 0;
+  /* Align text to the left instead of center */
+}
+
+li.col-6.col-sm-3.col-md-3 {
+  /* Remove padding or margin from the list items if necessary */
   padding: 0;
   margin: 0;
 }

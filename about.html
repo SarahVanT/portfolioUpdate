@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>About me</title>
+    <title>About Me</title>
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -68,32 +68,43 @@
       <section class="container section-main">
         <div class="row gy-5 align-items-center">
           <div class="col-md-6">
-            <h1 class="heading-primary mb-3">About me</h1>
-            <p>
-              I started my coding journey at 13 when I stumbled upon HTML and
-              CSS while playing a video game called Neopets. Since then, I've
-              attended several coding workshops, a UX/UI boot camp, and
-              completed a course on accessibility design to cater to a diverse
-              audience.
-            </p>
-            <p>
-              Before I got into coding and design, I spent five years as a
-              Bioenvironmental Engineer in the US Air Force. This experience
-              allowed me to tackle environmental and occupational health
-              challenges and gave me insight into various work environments and
-              complex systems. I also developed an interest in understanding how
-              people perform tasks and the problems they face.
-            </p>
-            <p>
-              When I'm not coding, you'll usually find me practicing yoga to
-              find calmness, cooking to satisfy my curiosity, or painting to
-              express my creativity. I'm always eager to learn and grow, both
-              personally and professionally.
-            </p>
+            <h1 class="heading-primary mb-3">
+              Hello, I'm
+              <span class="primary-color">Sarah</span>
+            </h1>
+            <div class="w-100">
+              <p>
+                I started my coding journey at 13 when I stumbled upon HTML and
+                CSS while playing a video game called Neopets. Since then, I've
+                attended several coding workshops, a UX/UI boot camp, and
+                completed a course on accessibility design to cater to a diverse
+                audience.
+              </p>
+              <p>
+                Before I got into coding and design, I spent five years as a
+                Bioenvironmental Engineer in the US Air Force. This experience
+                allowed me to tackle environmental and occupational health
+                challenges and gave me insight into various work environments
+                and complex systems. I also developed an interest in
+                understanding how people perform tasks and the problems they
+                face.
+              </p>
+              <p>
+                When I'm not coding, you'll usually find me practicing yoga to
+                find calmness, cooking to satisfy my curiosity, or painting to
+                express my creativity. I'm always eager to learn and grow, both
+                personally and professionally.
+              </p>
+            </div>
           </div>
           <div class="col-md-6 text-center">
-            <img
+            <!-- <img
               src="aboutMe.png"
+              alt="Closeup of Sarah in her hobby of creating an abstract acrylic pour painting."
+              class="img-large"
+            /> -->
+            <img
+              src="hero-img.png"
               alt="Closeup of Sarah in her hobby of creating an abstract acrylic pour painting."
               class="img-large"
             />
@@ -103,56 +114,93 @@
       <div class="container">
         <div class="divider" aria-hidden="true"></div>
       </div>
-      <section class="container section-main section-about-me text-start">
-        <h2 class="heading-secondary text-center mb-3">My Toolbox</h2>
-        <ul class="row text-center">
-          <li class="col-6 col-sm-3 col-md-3">
-            <i class="fa-brands fa-html5 skill-icon" aria-hidden="true"></i>
-            <p class="skill-text">HTML</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i class="fa-brands fa-css3-alt skill-icon" aria-hidden="true"></i>
-            <p class="skill-text">CSS</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i class="fa-brands fa-js skill-icon" aria-hidden="true"></i>
-            <p class="skill-text">JavaScript</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i class="fa-brands fa-bootstrap skill-icon" aria-hidden="true"></i>
-            <p class="skill-text">Bootstrap</p>
-          </li>
-          <!-- additional skills here -->
-        </ul>
-        <ul class="row text-center mt-4">
-          <li class="col-6 col-sm-3 col-md-3">
-            <i
-              class="fa-solid fa-universal-access skill-icon"
-              aria-hidden="true"
-            ></i>
-            <p class="skill-text">Accessibility</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i
-              class="fa-solid fa-mobile-button skill-icon"
-              aria-hidden="true"
-            ></i>
-            <p class="skill-text">Responsive Design</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i class="fa-brands fa-github skill-icon" aria-hidden="true"></i>
-            <p class="skill-text">GitHub</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i
-              class="fa-solid fa-laptop-code skill-icon"
-              aria-hidden="true"
-            ></i>
-            <p class="skill-text">VS Code</p>
-          </li>
-          <!-- additional skills here -->
-        </ul>
+      <section class="container section-skills">
+        <h2 class="heading-secondary mb-3 text-center">My Toolbox:</h2>
+        <div class="d-flex justify-content-center">
+          <p class="w-75 text-center">
+            My approach involves using web tools while also prioritizing
+            accessibility.
+          </p>
+        </div>
+
+        <div class="container">
+          <ul class="row text-center mt-4">
+            <li class="col-6 col-sm-3 col-md-3">
+              <i class="fa-brands fa-html5 skill-icon" aria-hidden="true"></i>
+              <p class="skill-text">HTML</p>
+            </li>
+            <li class="col-6 col-sm-3 col-md-3">
+              <i
+                class="fa-brands fa-css3-alt skill-icon"
+                aria-hidden="true"
+              ></i>
+              <p class="skill-text">CSS</p>
+            </li>
+            <li class="col-6 col-sm-3 col-md-3">
+              <i class="fa-brands fa-js skill-icon" aria-hidden="true"></i>
+              <p class="skill-text">JavaScript</p>
+            </li>
+            <li class="col-6 col-sm-3 col-md-3">
+              <i
+                class="fa-brands fa-bootstrap skill-icon"
+                aria-hidden="true"
+              ></i>
+              <p class="skill-text">Bootstrap</p>
+            </li>
+          </ul>
+          <ul class="row text-center mt-4">
+            <li class="col-6 col-sm-3 col-md-3">
+              <i
+                class="fa-solid fa-universal-access skill-icon"
+                aria-hidden="true"
+              ></i>
+              <p class="skill-text">Accessibility</p>
+            </li>
+            <li class="col-6 col-sm-3 col-md-3">
+              <i
+                class="fa-solid fa-mobile-button skill-icon"
+                aria-hidden="true"
+              ></i>
+              <p class="skill-text">Responsive Design</p>
+            </li>
+            <li class="col-6 col-sm-3 col-md-3">
+              <i class="fa-brands fa-github skill-icon" aria-hidden="true"></i>
+              <p class="skill-text">GitHub</p>
+            </li>
+            <li class="col-6 col-sm-3 col-md-3">
+              <i
+                class="fa-solid fa-laptop-code skill-icon"
+                aria-hidden="true"
+              ></i>
+              <p class="skill-text">VS Code</p>
+            </li>
+          </ul>
+          <ul class="row text-center mt-4">
+            <li class="col-6 col-sm-3 col-md-3">
+              <i class="fa-brands fa-figma skill-icon" aria-hidden="true"></i>
+              <p class="skill-text">Figma</p>
+            </li>
+            <li class="col-6 col-sm-3 col-md-3">
+              <i class="fa-brands fa-google skill-icon" aria-hidden="true"></i>
+              <p class="skill-text">SEO</p>
+            </li>
+            <li class="col-6 col-sm-3 col-md-3">
+              <i class="fa-brands fa-webflow skill-icon" aria-hidden="true"></i>
+              <p class="skill-text">Webflow</p>
+            </li>
+            <li class="col-6 col-sm-3 col-md-3">
+              <i
+                class="fa-brands fa-wordpress skill-icon"
+                aria-hidden="true"
+              ></i>
+              <p class="skill-text">Wordpress</p>
+            </li>
+          </ul>
+        </div>
       </section>
+      <div class="container">
+        <div class="divider" aria-hidden="true"></div>
+      </div>
 
       <section class="container section-cta text-center d-flex flex-column">
         <h2 class="heading-secondary mb-3">Thanks for stopping by!</h2>
