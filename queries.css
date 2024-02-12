@@ -88,8 +88,13 @@
     width: 70%;
   }
   .section-hero {
-    padding: 4rem 0;
+    padding: 2rem 0;
   }
+
+  .heading-primary {
+    margin-top: -2rem;
+  }
+
   .container-hero {
     padding: 0 3rem;
   }
