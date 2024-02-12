@@ -32,7 +32,7 @@
       <a href="#main" class="skip-link">Skip to main content</a>
       <div class="container">
         <nav class="navbar navbar-expand-md navbar-light">
-          <a href="#" class="navbar-brand">
+          <a href="index.html" class="navbar-brand">
             <img
               src="testLogo3.png"
               alt="Sarah VanTilburg logo"
@@ -53,16 +53,16 @@
           <div class="collapse navbar-collapse" id="toggleMobileMenu">
             <ul class="nav navbar-nav ms-auto text-center">
               <li>
-                <a href="" class="nav-link">Home</a>
+                <a href="index.html" class="nav-link">Home</a>
               </li>
               <li>
-                <a href="#main" class="nav-link">Projects</a>
+                <a href="#projects" class="nav-link">Projects</a>
               </li>
               <li>
-                <a href="" class="nav-link">About</a>
+                <a href="about.html" class="nav-link">About</a>
               </li>
               <li>
-                <a href="" class="nav-link">Contact</a>
+                <a href="#contact" class="nav-link">Contact</a>
               </li>
             </ul>
           </div>
@@ -74,23 +74,23 @@
       <div class="container container-hero">
         <div class="row align-items-center">
           <div
-            class="col-12 col-md-12 col-lg-6 order-lg-2 text-center text-lg-end hero-img-box"
+            class="col-12 col-md-12 col-lg-6 order-lg-2 text-center text-lg-end img-box"
           >
-            <!-- Hero Image -->
             <img
-              src="hero-img.png"
+              src="images/hero-img.png"
               class="mb-6 mb-md-0 hero-img"
               alt="Closeup of Sarah"
             />
           </div>
           <div
-            class="col-12 col-md-12 col-lg-6 order-lg-1 mt-sm-4 mt-lg-0 text-center text-md-center text-lg-start"
+            class="col-12 col-md-12 col-lg-6 order-lg-1 mt-sm-4 mt-lg-0 text-center text-md-center text-lg-start text-box"
           >
             <!-- Hero Heading -->
             <h1 class="heading-primary mb-4 text-container">
               Hello, I'm Sarah. Designing with
-              <br /><span class="primary-color">Empathy</span>.<br />Developing
-              for <br /><span class="primary-color">Accessibility</span>.
+              <span class="primary-color-blockElement">Empathy.</span>
+              Developing for
+              <span class="primary-color-blockElement">Accessibility.</span>
             </h1>
             <p class="hero-description">
               From concept to code, I focus on making the web welcoming and
@@ -104,19 +104,86 @@
       <div class="divider" aria-hidden="true"></div>
     </div>
     <main id="main">
-      <section class="container section-main">
+      <section class="container section-main" id="projects">
         <h2 class="heading-secondary mb-3">Check out my projects</h2>
-        <!-- <p class="mb-3">
-          I love to learn new topics and always have projects in the works. Take
-          a look at what I've worked on.
-        </p> -->
-        <p>
-          Dive into my latest projects where coding meets design.<br />
+
+        <p class="mb-0">
+          Dive into my latest projects where coding meets design.
+        </p>
+        <p class="mb-sm-3 mb-md-5">
           Take a look and see what grabs your attention!
         </p>
         <!-- <div class="container"> -->
         <!-- Cards -->
-        <div class="row gx-5 gy-5 mt-4">
+        <div class="row g-5">
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="card h-100">
+              <img
+                src="images/omnifoodProject.png"
+                alt="Weather application showing San Francisco's current weather: 12°C, overcast clouds."
+                class="card-image-top mb-4"
+              />
+              <div class="card-body">
+                <!-- <h3 class="card-title heading-tertiary">Weather Application</h3> -->
+                <h3 class="card-title heading-tertiary">
+                  Omnifood: Redesigned for Everyone
+                </h3>
+                <p class="card-text my-3">
+                  This redesign elevates a class project into an accessible,
+                  user-centric service where customers can design their meals,
+                  made-to-order by expert chefs.
+                </p>
+                <!-- <p class="card-text my-3">
+                  Engineered a user-friendly weather app integrating live data
+                  to deliver accurate forecasts. Focused on clean, accessible
+                  interfaces with real-time updates to keep users informed and
+                  prepared.
+                </p> -->
+                <p class="">
+                  <a href="" class="button"
+                    >Omnifood project insights
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                      ></i></span
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="card h-100">
+              <img
+                src="images/aiAccessibilityGen.png"
+                alt="AI Accessibility Generator page with radio buttons for WCAG content selection."
+                class="card-image-top mb-4"
+              />
+              <div class="card-body">
+                <h3 class="card-title heading-tertiary">
+                  AI Accessiblity Generator
+                </h3>
+                <p class="card-text my-3">
+                  Creating accessible content is effortless with the WCAG
+                  Generator. Simply choose your category, generate guidelines,
+                  and deepen your understanding of accessibility.
+                </p>
+                <p class="">
+                  <a href="ai.html" class="button"
+                    >Explore AI Generator
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                      ></i></span
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="row gx-5 gy-5 mt-4">
           <div class="col-12 col-md-6 col-lg-6">
             <div class="card h-100">
               <img
@@ -125,21 +192,15 @@
                 class="card-image-top mb-4"
               />
               <div class="card-body">
-                <h3 class="card-title heading-tertiary">NOVO Massage Studio</h3>
+                <h3 class="card-title heading-tertiary">
+                  NOVO Massage Studio - Coming Soon
+                </h3>
+
                 <p class="card-text my-3">
-                  Transformed NOVO's website into a tranquil digital oasis,
-                  reflecting the calmness of their services with an accessible
-                  and seamless user interface.
-                </p>
-                <p class="">
-                  <a href="#" class="button"
-                    >Explore NOVO
-                    <span
-                      ><i
-                        class="fa-solid fa-arrow-right"
-                        aria-hidden="true"
-                      ></i></span
-                  ></a>
+                  Immerse in tranquility with the upcoming NOVO Massage Studio
+                  website. Designed to create a serene online experience
+                  mirroring their therapeutic services. Stay tuned for the
+                  launch.
                 </p>
               </div>
             </div>
@@ -172,47 +233,52 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </section>
       <div class="container">
         <div class="divider" aria-hidden="true"></div>
       </div>
       <section class="container section-main section-about-me text-start">
         <div class="row gy-5 align-items-center">
-          <div class="col-md-6">
+          <div class="col-md-6 about-me-text">
             <h2 class="heading-secondary mb-3">Learn more about me</h2>
             <p>
-              Hey there! I'm a coder and designer based in Dayton, and I love
-              creating beautiful and accessible designs. It all started for me
-              when I was a teenager and discovered my passion for coding. While
-              serving in the United States Air Force, I had the opportunity to
-              tackle environmental and occupational health challenges. I've also
-              participated in women-focused coding workshops, a UX/UI bootcamp,
-              and accessibility design courses, which have all helped me grow as
-              a coder and designer. When I'm not coding, you'll usually find me
-              practicing yoga to find calmness, cooking to satisfy my curiosity,
-              or painting to express my creativity. I'm always eager to learn
-              and grow, both personally and professionally.
+              Hi there! I'm a Dayton-based coder and designer who loves creating
+              beautiful and accessible designs. I discovered my passion for
+              coding as a teenager and have since tackled environmental and
+              occupational health challenges while serving in the United States
+              Air Force. I've also participated in coding workshops, a UX/UI
+              bootcamp, and accessibility design courses. When I'm not coding,
+              you'll usually find me practicing yoga to find calmness, cooking
+              to satisfy my curiosity, or painting to express my creativity. I'm
+              always eager to learn and grow, both personally and
+              professionally.
             </p>
-            <a href="#" class="link"
+            <a href="about.html" class="custom-link"
               >Read full bio
-              <span
-                ><i
-                  class="fa-solid fa-arrow-right"
-                  aria-hidden="true"
-                ></i></span
+              <i class="fas fa-arrow-right" aria-hidden="true"></i
             ></a>
           </div>
-          <div class="col-md-6 text-center">
+          <div
+            class="col-md-6 d-flex justify-content-end flex-md-row flex-column align-items-center gap-3 about-me-paintings"
+          >
             <img
-              src="resized-painting.png"
+              src="images/watercolorDesert.png"
               alt="Watercolor painting of a sunset over a desert landscape"
-              class="about-me-img"
+              class="watercolor-painting"
+            />
+            <img
+              src="images/watercolorForest.png"
+              alt="Watercolor painting of a tranquil, misty forest"
+              class="watercolor-painting"
             />
           </div>
         </div>
       </section>
-      <section class="container section-cta text-center d-flex flex-column">
+      <section
+        class="container section-cta text-center d-flex flex-column"
+        id="contact"
+      >
         <h2 class="heading-secondary mb-3">Thanks for stopping by!</h2>
         <p>
           I appreciate you checking out my work!<br />Feel free to email me or
@@ -220,12 +286,12 @@
         </p>
 
         <div class="social-links">
-          <a href="#" class="button"
+          <a href="mailto:sarahvantilburg1@outlook.com" class="button"
             >Email me
             <span
               ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
           ></a>
-          <a href="#" class="button"
+          <a href="https://www.linkedin.com/in/sarah-vantilburg/" class="button"
             >LinkedIn profile
             <span
               ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
@@ -250,5 +316,6 @@
       src="https://kit.fontawesome.com/2e89d80a8b.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </body>
 </html>

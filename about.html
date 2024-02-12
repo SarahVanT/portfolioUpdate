@@ -32,7 +32,7 @@
       <a href="#main" class="skip-link">Skip to main content</a>
       <div class="container">
         <nav class="navbar navbar-expand-md navbar-light">
-          <a href="#" class="navbar-brand">
+          <a href="index.html" class="navbar-brand">
             <img
               src="testLogo3.png"
               alt="Sarah VanTilburg logo"
@@ -53,16 +53,16 @@
           <div class="collapse navbar-collapse" id="toggleMobileMenu">
             <ul class="nav navbar-nav ms-auto text-center">
               <li>
-                <a href="" class="nav-link">Home</a>
+                <a href="index.html" class="nav-link">Home</a>
               </li>
               <li>
-                <a href="" class="nav-link">Projects</a>
+                <a href="#projects" class="nav-link">Projects</a>
               </li>
               <li>
-                <a href="" class="nav-link">About</a>
+                <a href="about.html" class="nav-link">About</a>
               </li>
               <li>
-                <a href="" class="nav-link">Contact</a>
+                <a href="#contact" class="nav-link">Contact</a>
               </li>
             </ul>
           </div>
@@ -72,28 +72,27 @@
 
     <main id="main">
       <section class="container section-main">
-        <div class="row gy-5 align-items-center">
-          <div class="col-md-6">
-            <h1 class="heading-primary mb-3">
-              Hello, I'm
-              <span class="primary-color">Sarah</span>
+        <div class="row align-items-center">
+          <div class="col-md-6 text-box">
+            <h1 class="heading-primary text-center text-md-start mb-3">
+              Hello, I'm <span class="primary-color">Sarah</span>
             </h1>
-            <div class="w-100">
+            <div>
               <p>
-                I started my coding journey at 13 when I stumbled upon HTML and
-                CSS while playing a video game called Neopets. Since then, I've
-                attended several coding workshops, a UX/UI boot camp, and
-                completed a course on accessibility design to cater to a diverse
-                audience.
+                I started my coding journey when I was 13 years old. It all
+                began when I stumbled upon HTML and CSS while playing a video
+                game called Neopets. Since then, I have attended several coding
+                workshops, a UX/UI bootcamp, and completed a course on
+                accessibility design to cater to a diverse audience.
               </p>
               <p>
                 Before I got into coding and design, I spent five years as a
                 Bioenvironmental Engineer in the US Air Force. This experience
                 allowed me to tackle environmental and occupational health
-                challenges and gave me insight into various work environments
-                and complex systems. I also developed an interest in
-                understanding how people perform tasks and the problems they
-                face.
+                challenges, gave me insight into various work environments, and
+                helped me understand complex systems. It also developed my
+                interest in understanding how people perform tasks and the
+                problems they face.
               </p>
               <p>
                 When I'm not coding, you'll usually find me practicing yoga to
@@ -103,15 +102,10 @@
               </p>
             </div>
           </div>
-          <div class="col-md-6 text-center">
-            <!-- <img
-              src="aboutMe.png"
-              alt="Closeup of Sarah in her hobby of creating an abstract acrylic pour painting."
-              class="img-large"
-            /> -->
+          <div class="col-md-6 text-center text-lg-end img-box">
             <img
-              src="hero-img.png"
-              alt="Closeup of Sarah in her hobby of creating an abstract acrylic pour painting."
+              src="images/hero-img.png"
+              alt="Closeup of Sarah"
               class="img-large"
             />
           </div>
@@ -121,16 +115,21 @@
         <div class="divider" aria-hidden="true"></div>
       </div>
       <section class="container section-skills">
-        <h2 class="heading-secondary mb-3 text-center">My Toolbox:</h2>
-        <div class="d-flex justify-content-center">
+        <h2 class="heading-secondary mb-3 text-start">My toolbox</h2>
+        <p class="text-start">
+          The foundation for creating accessible and responsive websites lies in
+          the tools of my toolbox. I use technology to bring products to life
+          with usability and aesthetic appeal for all users.
+        </p>
+        <!-- <div class="d-flex justify-content-center">
           <p class="w-75 text-center">
             My approach involves using web tools while also prioritizing
             accessibility.
           </p>
-        </div>
+        </div> -->
 
         <div class="container">
-          <ul class="row text-center mt-4">
+          <ul class="row text-center mt-5">
             <li class="col-6 col-sm-3 col-md-3">
               <i class="fa-brands fa-html5 skill-icon" aria-hidden="true"></i>
               <p class="skill-text">HTML</p>
@@ -207,21 +206,92 @@
       <div class="container">
         <div class="divider" aria-hidden="true"></div>
       </div>
+      <section class="container section-main" id="projects">
+        <h2 class="heading-secondary mb-3">Check out my projects</h2>
 
-      <section class="container section-cta text-center d-flex flex-column">
-        <h2 class="heading-secondary mb-3">Thanks for stopping by!</h2>
-        <p>
-          I appreciate you checking out my work!<br />Feel free to email me or
-          connect through LinkedIn.
+        <p class="mb-0">
+          Dive into my latest projects where coding meets design.
         </p>
-
+        <p class="mb-sm-3 mb-md-5">
+          Take a look and see what grabs your attention!
+        </p>
+        <!-- <div class="container"> -->
+        <!-- Cards -->
+        <div class="row g-5">
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="card h-100">
+              <img
+                src="images/omnifoodProject.png"
+                alt="Weather application showing San Francisco's current weather: 12°C, overcast clouds."
+                class="card-image-top mb-4"
+              />
+              <div class="card-body">
+                <h3 class="card-title heading-tertiary">
+                  Omnifood: Redesigned for Everyone
+                </h3>
+                <p class="card-text my-3">
+                  This redesign elevates a class project into an accessible,
+                  user-centric service where customers can design their meals,
+                  made-to-order by expert chefs.
+                </p>
+                <p class="">
+                  <a href="#" class="button"
+                    >Omnifood project insights
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                      ></i></span
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="card h-100">
+              <img
+                src="images/aiAccessibilityGen.png"
+                alt="AI Accessibility Generator page with radio buttons for WCAG content selection."
+                class="card-image-top mb-4"
+              />
+              <div class="card-body">
+                <h3 class="card-title heading-tertiary">
+                  AI Accessiblity Generator
+                </h3>
+                <p class="card-text my-3">
+                  Creating accessible content is effortless with the WCAG
+                  Generator. Simply choose your category, generate guidelines,
+                  and deepen your understanding of accessibility.
+                </p>
+                <p class="">
+                  <a href="ai.html" class="button"
+                    >Explore AI Generator
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                      ></i></span
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="container section-cta text-center d-flex flex-column"
+        id="contact"
+      >
+        <h2 class="heading-secondary mb-3">Thanks for stopping by!</h2>
+        <p class="mb-0">I appreciate you checking out my work!</p>
+        <p>Feel free to email me or connect through LinkedIn.</p>
         <div class="social-links">
-          <a href="#" class="button"
+          <a href="mailto:sarahvantilburg1@outlook.com" class="button"
             >Email me
             <span
               ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
           ></a>
-          <a href="#" class="button"
+          <a href="https://www.linkedin.com/in/sarah-vantilburg/" class="button"
             >LinkedIn profile
             <span
               ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
@@ -246,5 +316,6 @@
       src="https://kit.fontawesome.com/2e89d80a8b.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </body>
 </html>

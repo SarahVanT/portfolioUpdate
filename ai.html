@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Meet Sarah VanTilburg, your go-to Front-End Developer and Designer for projects that prioritize user experience and web accessibility."
+    />
+    <title>
+      Sarah VanTilburg - Bridging Design and Accessibility in Web Development
+    </title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="queries.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#main" class="skip-link">Skip to main content</a>
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a href="index.html" class="navbar-brand">
+            <img
+              src="testLogo3.png"
+              alt="Sarah VanTilburg logo"
+              class="logo d-line-block align-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="nav navbar-nav ms-auto text-center">
+              <li>
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li>
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li>
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="container project-introduction testing">
+        <div class="d-flex flex-column align-items-center">
+          <h1 class="heading-primary primary-color text-center mb-3">
+            AI Accessibility Generator
+          </h1>
+          <!-- <p class="w-60 mb-4">
+            The AI Accessibility Generator is a custom JavaScript application
+            that I developed over one week for the SheCodes AI Class. The
+            project utilizes JavaScript, AI, HTML, and CSS. Unlike other AI
+            generators that create fun content such as poems or jokes, this
+            project concentrates on generating the Web Content Accessibility
+            Guidelines (WCAG). My goal was to provide developers, designers, and
+            tech professionals with a more intuitive understanding of these
+            standards.
+          </p> -->
+          <p class="w-60 mb-4">
+            The AI Accessibility Generator is a custom JavaScript application I
+            developed over one week for the SheCodes AI Class. Unlike other AI
+            generators that create content such as poems or jokes, this project
+            focuses on generating the Web Content Accessibility Guidelines
+            (WCAG). I aimed to provide developers, designers, and tech
+            professionals with a better understanding of these standards.
+          </p>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-2">
+            <h2 class="heading-tertiary">Type</h2>
+            <p>SheCodes project</p>
+          </div>
+
+          <div class="col-md-2">
+            <h2 class="heading-tertiary">Stack</h2>
+            <div class="stack-list">
+              <p>JavaScript</p>
+              <p>AI API</p>
+              <p>Bootstrap</p>
+              <p>Netlify</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <h2 class="heading-tertiary">Live</h2>
+            <a href="#" class="custom-link"
+              >View live site
+              <i class="fas fa-arrow-right" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center my-5">
+            <img src="images/Frame 62.png" class="img-large project-image" />
+          </div>
+        </div>
+      </section>
+
+      <section class="container project-content">
+        <section class="mb-7">
+          <h2 class="heading-secondary mb-3">The starting point</h2>
+          <!-- <p class="w-75 mb-5">
+            Learning AI felt similar to learning a new language. I spent hours
+            trying to understand how to communicate effectively with it.
+            Crafting prompts for the AI required clear and direct communication,
+            ensuring the AI formatted its responses precisely. For instance, I
+            customized the prompts to include guideline numbers and levels for
+            each WCAG standard.
+          </p> -->
+          <p class="w-75 mb-5">
+            Learning AI felt like learning a new language. I spent hours trying
+            to understand how to communicate effectively with it. Crafting
+            prompts for the AI required clear and direct communication, ensuring
+            the AI formatted its responses precisely. For instance, I customized
+            the prompts to include guideline numbers and levels for each WCAG
+            standard.
+          </p>
+          <figure class="d-flex flex-column align-items-center">
+            <img src="images/carbon (1).png" alt="" class="img-large" />
+            <figcaption class="">
+              This code shows how I crafted prompts to interact with the AI,
+              ensuring clear communication for generating WCAG guidelines.
+            </figcaption>
+          </figure>
+        </section>
+
+        <section class="mb-7">
+          <h2 class="heading-secondary mb-3">Building with purpose</h2>
+          <!-- <p class="w-75">
+            I focused on building the layout by using Bootstrap. This allowed me
+            to quickly create a responsive layout that adapts to different
+            screen sizes. To ensure accessibility, I used semantic HTML elements
+            and ARIA attributes. However, I faced a challenge in making the
+            AI-generated content accessible. To overcome this, I included
+            'aria-live', which announces content updates in real-time to screen
+            readers.
+          </p> -->
+          <p class="w-75">
+            I focused on building the layout using Bootstrap. This allowed me to
+            quickly create a responsive layout that adapts to different screen
+            sizes. To ensure accessibility, I used semantic HTML elements and
+            ARIA attributes. However, I faced a challenge in making the
+            AI-generated content accessible. To overcome this, I included
+            'aria-live', which announces content updates in real-time to screen
+            readers.
+          </p>
+        </section>
+
+        <section class="mb-7">
+          <h2 class="heading-secondary mb-3">Designing for everyone</h2>
+          <!-- <p class="w-75 mb-5">
+            I ensured that the content I designed was engaging and readable for
+            everyone, including those with visual impairments. To achieve this,
+            I used tools like the WebAIM contrast checker and a vision simulator
+            plugin. The Apple Safari browser inspired the design but was
+            optimized for screen readers by removing non-essential decorative
+            elements. I also redesigned the form, taking inspiration from Liz
+            Brown's accessibility design course, to make it more comprehensive
+            and accessible.
+          </p> -->
+          <p class="w-75 mb-5">
+            I ensured that the content I designed was engaging and readable for
+            everyone, including those with visual impairments. To achieve this,
+            I used tools like the WebAIM contrast checker and a vision simulator
+            plugin. The Apple Safari browser inspired the design but was
+            optimized for screen readers by removing non-essential decorative
+            elements. Additionally, I redesigned the form to make it more
+            comprehensive and accessible, taking inspiration from an
+            accessibility design course. Specifically, I made the radio buttons
+            larger and added a focus state to include the radio button and its
+            label.
+          </p>
+          <figure class="d-flex flex-column align-items-center">
+            <img
+              src="images/Frame 63 - Achromatopsia.png"
+              alt=""
+              class="img-large"
+            />
+            <figcaption class="">
+              This image illustrates the interface perceived by individuals with
+              complete color blindness.
+            </figcaption>
+          </figure>
+        </section>
+        <section>
+          <h2 class="heading-secondary mb-3">Closing thoughts</h2>
+          <!-- <p class="w-75">
+            This project was quite challenging as it involved multiple tasks. I
+            had to learn how to communicate with AI effectively, conduct
+            research on designing accessible forms, and understand how screen
+            readers work. The experience was eye-opening as I realized how
+            difficult it is to create accessible websites. Despite having a
+            project deadline, this project sparked a desire to explore the use
+            of screen readers in greater depth. Overall, this project was
+            informative and enjoyable, and it marks just the beginning of my
+            journey towards accessible web development.
+          </p> -->
+          <p class="w-75">
+            This project was quite challenging as it involved multiple tasks. I
+            had to learn how to communicate with AI effectively, conduct
+            research on designing accessible forms, and understand how screen
+            readers work. The experience was eye-opening as I realized how
+            difficult it is to create accessible websites. Despite having a
+            project deadline, this project sparked a desire to explore the use
+            of screen readers in greater depth. Overall, this project was
+            informative and enjoyable, and it marks just the beginning of my
+            journey towards accessible web development.
+          </p>
+        </section>
+      </section>
+      <div class="container">
+        <div class="divider" aria-hidden="true"></div>
+      </div>
+      <section class="container section-main" id="projects">
+        <h2 class="heading-secondary mb-3">Check out my projects</h2>
+
+        <p class="mb-0">
+          Dive into my latest projects where coding meets design.
+        </p>
+        <p class="mb-sm-3 mb-md-5">
+          Take a look and see what grabs your attention!
+        </p>
+        <!-- <div class="container"> -->
+        <!-- Cards -->
+        <div class="row g-5">
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="card h-100">
+              <img
+                src="images/omnifoodProject.png"
+                alt="Weather application showing San Francisco's current weather: 12°C, overcast clouds."
+                class="card-image-top mb-4"
+              />
+              <div class="card-body">
+                <h3 class="card-title heading-tertiary">
+                  Omnifood: Redesigned for Everyone
+                </h3>
+                <p class="card-text my-3">
+                  This redesign elevates a class project into an accessible,
+                  user-centric service where customers can design their meals,
+                  made-to-order by expert chefs.
+                </p>
+                <p class="">
+                  <a href="#" class="button"
+                    >Omnifood project insights
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                      ></i></span
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="card h-100">
+              <img
+                src="images/aiAccessibilityGen.png"
+                alt="AI Accessibility Generator page with radio buttons for WCAG content selection."
+                class="card-image-top mb-4"
+              />
+              <div class="card-body">
+                <h3 class="card-title heading-tertiary">
+                  AI Accessiblity Generator
+                </h3>
+                <p class="card-text my-3">
+                  Creating accessible content is effortless with the WCAG
+                  Generator. Simply choose your category, generate guidelines,
+                  and deepen your understanding of accessibility.
+                </p>
+                <p class="">
+                  <a href="ai.html" class="button"
+                    >Explore AI Generator
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                      ></i></span
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="container section-cta text-center d-flex flex-column"
+        id="contact"
+      >
+        <h2 class="heading-secondary mb-3">Thanks for stopping by!</h2>
+        <p class="mb-0">I appreciate you checking out my work!</p>
+        <p>Feel free to email me or connect through LinkedIn.</p>
+
+        <div class="social-links">
+          <a href="#" class="button"
+            >Email me
+            <span
+              ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
+          ></a>
+          <a href="https://www.linkedin.com/in/sarah-vantilburg/" class="button"
+            >LinkedIn profile
+            <span
+              ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
+          ></a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="container text-center p-2">
+        <p class="copyright">
+          Website Designed and Developed by Sarah VanTilburg
+        </p>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/2e89d80a8b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

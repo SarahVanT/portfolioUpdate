@@ -25,7 +25,7 @@
   }
 
   .section-main {
-    padding: 4rem 0;
+    padding: 4rem 1rem;
   }
 
   .heading-secondary {
@@ -54,9 +54,8 @@
     gap: 1.9rem;
   }
 
-  .about-me-img {
+  .watercolor-painting {
     width: 60%;
-    /* outline: 20px solid black; */
   }
 }
 
@@ -67,6 +66,16 @@
 
   .heading-primary {
     font-size: 2rem;
+  }
+
+  /* no animation */
+  .hero-img-box,
+  .hero-text-box,
+  .about-me-text,
+  .about-me-paintings {
+    transform: none;
+    opacity: 1;
+    transition: none;
   }
 }
 
@@ -86,7 +95,11 @@
   }
 
   .section-main {
-    padding: 4rem 1.5rem;
+    padding: 3rem 1.5rem;
+  }
+
+  .section-skills {
+    padding: 3rem 1.5rem;
   }
 
   .section-cta {
@@ -102,5 +115,20 @@
   .button:link,
   .button:visited {
     padding: 0.7rem 1rem;
+  }
+
+  .watercolor-painting {
+    width: 40%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-img-box,
+  .hero-text-box,
+  .about-me-text,
+  .about-me-paintings {
+    transform: none;
+    opacity: 1;
+    transition: none;
   }
 }

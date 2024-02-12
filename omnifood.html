@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Meet Sarah VanTilburg, your go-to Front-End Developer and Designer for projects that prioritize user experience and web accessibility."
+    />
+    <title>
+      Sarah VanTilburg - Bridging Design and Accessibility in Web Development
+    </title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="queries.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#main" class="skip-link">Skip to main content</a>
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a href="index.html" class="navbar-brand">
+            <img
+              src="testLogo3.png"
+              alt="Sarah VanTilburg logo"
+              class="logo d-line-block align-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="nav navbar-nav ms-auto text-center">
+              <li>
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li>
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li>
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="container project-introduction testing">
+        <div class="d-flex flex-column align-items-center">
+          <h1 class="heading-primary primary-color text-center mb-3">
+            Omnifood
+          </h1>
+
+          <p class="w-60 mb-4">
+            Omnifood is a meal delivery service that caters to your personal
+            preferences. It was redesigned over two weeks to improve
+            accessibility and user experience. It started as a project for a
+            Udemy class and was later transformed to meet web accessibility
+            standards. My redesign aimed to bridge the gap and provide a
+            universally accessible website without compromising on its
+            aesthetics or functionality.
+          </p>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-2">
+            <h2 class="heading-tertiary">Type</h2>
+            <p>Project redesign</p>
+          </div>
+
+          <div class="col-md-2">
+            <h2 class="heading-tertiary">Stack</h2>
+            <div class="stack-list">
+              <p>Sass</p>
+              <p>Bootstrap</p>
+              <p>Netlify</p>
+              <p>Adobe Express</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <h2 class="heading-tertiary">Live</h2>
+            <a href="#" class="custom-link mb-3"
+              >New site <i class="fas fa-arrow-right" aria-hidden="true"></i
+            ></a>
+            <a href="#" class="custom-link"
+              >Original site
+              <i class="fas fa-arrow-right" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center my-5">
+            <img
+              src="images/Free Clean desk with Dell display mockup (Mockuuups Studio).png"
+              style="width: 60%"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="container project-content">
+        <section class="mb-7">
+          <h2 class="heading-secondary mb-3">Accessibility goals</h2>
+          <!-- <p class="w-75 mb-5">
+            Learning AI felt similar to learning a new language. I spent hours
+            trying to understand how to communicate effectively with it.
+            Crafting prompts for the AI required clear and direct communication,
+            ensuring the AI formatted its responses precisely. For instance, I
+            customized the prompts to include guideline numbers and levels for
+            each WCAG standard.
+          </p> -->
+          <p class="w-75 mb-5">
+            The Omnifood project had a significant challenge - to improve an
+            existing design and make it more inclusive and accessible to
+            everyone. After running several accessibility checkers, it was clear
+            that the original design and code had scored poorly due to low
+            contrast, small text, missing alternative text for images, and other
+            related issues. Therefore, my objective was to significantly raise
+            this score by following the Web Content Accessibility Guidelines
+            (WCAG) to ensure that the website is easily navigable and
+            understandable for all users.
+          </p>
+          <figure class="d-flex flex-column align-items-center">
+            <img src="images/WAVEScore.png" alt="" class="img-large" />
+            <figcaption class="mt-2">
+              This is WAVE, a web browser plugin. It can identify many
+              accessibility and WCAG errors.
+            </figcaption>
+          </figure>
+        </section>
+
+        <section class="mb-7">
+          <h2 class="heading-secondary mb-3">Design and development</h2>
+          <p class="w-75">
+            For updating Omnifood's website, I followed a two-part approach.
+            First, I retained the website's original flow. Second, I enhanced
+            its design through the use of Bootstrap and SASS. I learned the
+            process of using Bootstrap and SASS via YouTube videos. This
+            approach allowed me to customize Bootstrap's styles which suited my
+            specific needs. The new layout has removed clutter and now
+            prioritizes accessibility and ease of navigation for screen readers
+            and other assistive technologies. I refined the hero section to put
+            more focus on the image, taking inspiration from the best practices
+            of leading meal delivery services. The hero image and logo were
+            created using Adobe Express to maintain visual continuity with the
+            site's original branding while elevating the overall user
+            experience.
+          </p>
+        </section>
+
+        <section class="mb-7">
+          <div class="row gy-5 align-items-center">
+            <div class="col-md-6">
+              <h2 class="heading-secondary mb-3">Before:</h2>
+              <img
+                src="images/omnifoodOriginal.png"
+                alt="Before Redesign"
+                class="mb-5 shadow"
+                style="width: 100%"
+              />
+              <img
+                src="images/image 27.png"
+                alt="Before Redesign"
+                style="width: 100%"
+                class="shadow"
+              />
+            </div>
+            <div class="col-md-6">
+              <h2 class="heading-secondary mb-3">After:</h2>
+              <img
+                src="images/omnifoodRevision.png"
+                alt="Watercolor painting of a sunset over a desert landscape"
+                style="width: 100%"
+                class="mb-5 shadow"
+              />
+              <img
+                src="images/image 26.png"
+                alt="Watercolor painting of a sunset over a desert landscape"
+                style="width: 100%"
+                class="shadow"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2 class="heading-secondary mb-3">Reflecting</h2>
+          <p class="w-75">
+            This project has taught me the importance of prioritizing
+            accessibility right from the planning phase of design. This practice
+            can help save time when coding later on. While working on this
+            project, I meticulously checked the color contrast using the WebAim
+            contrast checker and other accessibility checkers to ensure
+            accessibility in my code. I also realized that not all accessibility
+            checkers are foolproof, and it is essential to manually check the
+            code and design for accessibility issues. During this project, I
+            also learned about Sass, which proved to be a game-changer in terms
+            of optimizing CSS. Adapting Bootstrap's predefined styles with Sass
+            required navigating a learning curve, but it ultimately armed me
+            with powerful techniques to craft an efficient, maintainable, and
+            accessible styling structure. This project was not just about
+            development; it was a journey towards a more inclusive web, and
+            every step was a stride in my evolution as a developer and designer.
+          </p>
+        </section>
+      </section>
+      <div class="container">
+        <div class="divider" aria-hidden="true"></div>
+      </div>
+      <section class="container section-main" id="projects">
+        <h2 class="heading-secondary mb-3">Check out my projects</h2>
+
+        <p class="mb-0">
+          Dive into my latest projects where coding meets design.
+        </p>
+        <p class="mb-sm-3 mb-md-5">
+          Take a look and see what grabs your attention!
+        </p>
+        <!-- <div class="container"> -->
+        <!-- Cards -->
+        <div class="row g-5">
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="card h-100">
+              <img
+                src="images/weatherApplication.png"
+                alt="Weather application showing San Francisco's current weather: 12°C, overcast clouds."
+                class="card-image-top mb-4"
+              />
+              <div class="card-body">
+                <h3 class="card-title heading-tertiary">Weather Application</h3>
+                <p class="card-text my-3">
+                  Engineered a user-friendly weather app integrating live data
+                  to deliver accurate forecasts. Focused on clean, accessible
+                  interfaces with real-time updates to keep users informed and
+                  prepared.
+                </p>
+                <p class="">
+                  <a href="#" class="button"
+                    >Explore Weather App
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                      ></i></span
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="card h-100">
+              <img
+                src="images/aiAccessibilityGen.png"
+                alt="AI Accessibility Generator page with radio buttons for WCAG content selection."
+                class="card-image-top mb-4"
+              />
+              <div class="card-body">
+                <h3 class="card-title heading-tertiary">
+                  AI Accessiblity Generator
+                </h3>
+                <p class="card-text my-3">
+                  Creating accessible content is effortless with the WCAG
+                  Generator. Simply choose your category, generate guidelines,
+                  and deepen your understanding of accessibility.
+                </p>
+                <p class="">
+                  <a href="ai.html" class="button"
+                    >Explore AI Generator
+                    <span
+                      ><i
+                        class="fa-solid fa-arrow-right"
+                        aria-hidden="true"
+                      ></i></span
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="container section-cta text-center d-flex flex-column"
+        id="contact"
+      >
+        <h2 class="heading-secondary mb-3">Thanks for stopping by!</h2>
+        <p class="mb-0">I appreciate you checking out my work!</p>
+        <p>Feel free to email me or connect through LinkedIn.</p>
+
+        <div class="social-links">
+          <a href="#" class="button"
+            >Email me
+            <span
+              ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
+          ></a>
+          <a href="https://www.linkedin.com/in/sarah-vantilburg/" class="button"
+            >LinkedIn profile
+            <span
+              ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
+          ></a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="container text-center p-2">
+        <p class="copyright">
+          Website Designed and Developed by Sarah VanTilburg
+        </p>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/2e89d80a8b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
