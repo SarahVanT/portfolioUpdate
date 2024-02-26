@@ -218,7 +218,7 @@ p {
 }
 
 .section-cta {
-  padding: 1rem 0 5rem 0;
+  padding: 5rem 0 5rem 0;
 }
 
 .section-footer {
@@ -314,6 +314,7 @@ p {
   font-size: 1.125rem;
   color: #642b69;
   font-weight: 600;
+  padding: 0.3rem;
 }
 
 .custom-link i {
@@ -340,7 +341,7 @@ p {
 }
 
 .custom-link:hover i {
-  transform: translateX(5px); /* Adjust distance icon moves */
+  transform: translateX(2.5px); /* Adjust distance icon moves */
 }
 
 .button i {
@@ -348,7 +349,7 @@ p {
 }
 
 .button:hover i {
-  transform: translateX(5px);
+  transform: translateX(2.5px);
 }
 
 footer {
