@@ -56,7 +56,7 @@
                 <a href="index.html" class="nav-link">Home</a>
               </li>
               <li>
-                <a href="#projects" class="nav-link">Projects</a>
+                <a href="index.html#projects" class="nav-link">Projects</a>
               </li>
               <li>
                 <a href="about.html" class="nav-link">About</a>
@@ -71,39 +71,48 @@
     </header>
 
     <main id="main">
-      <section class="container project-introduction testing">
-        <div class="d-flex flex-column align-items-center">
-          <h1 class="heading-primary primary-color text-center mb-3">
-            Omnifood
-          </h1>
+      <section class="container project-introduction">
+        <div class="row d-flex flex-column align-items-center">
+          <div class="col-12 col-lg-6">
+            <h1 class="heading-primary primary-color text-center mb-3">
+              Omnifood
+            </h1>
 
-          <p class="w-60 mb-4">
-            Omnifood is a made-up food delivery service that customizes meals
-            according to your liking. It began as a Udemy class project and
-            later evolved to adhere to web accessibility guidelines. My redesign
-            goal was to create a website that is accessible to everyone while
-            still maintaining its appearance and features.
-          </p>
+            <p class="mb-4">
+              Omnifood is a made-up food delivery service that customizes meals
+              according to your liking. It began as a Udemy class project and
+              later evolved to adhere to web accessibility guidelines. My
+              redesign goal was to create a website that is accessible to
+              everyone while still maintaining its appearance and features.
+            </p>
+          </div>
         </div>
 
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-2">
-            <h2 class="heading-tertiary">Type</h2>
-            <p>Project redesign</p>
+        <div class="row d-flex justify-content-center align-items-right">
+          <div class="col-12 col-md-2">
+            <h2 class="heading-tertiary">Type:</h2>
+            <ul class="list-unstyled">
+              <li><p>Project redesign</p></li>
+            </ul>
           </div>
 
-          <div class="col-md-2">
-            <h2 class="heading-tertiary">Stack</h2>
-            <div class="stack-list">
+          <div class="col-12 col-md-2">
+            <h2 class="heading-tertiary">Stack:</h2>
+            <ul class="">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
               <p>Sass</p>
               <p>Bootstrap</p>
               <p>Netlify</p>
               <p>Adobe Express</p>
               <p>Figma</p>
-            </div>
+            </ul>
           </div>
-          <div class="col-md-2">
-            <h2 class="heading-tertiary">Live</h2>
+          <div class="col-12 col-md-2">
+            <h2 class="heading-tertiary">Live:</h2>
             <a
               href="https://omnifood-revision.netlify.app/"
               class="custom-link mb-3"
@@ -119,7 +128,7 @@
         </div>
 
         <div class="row">
-          <div class="col-12 text-center my-5">
+          <div class="col-12 text-center mt-5">
             <img
               src="images/omnifoodMockup.png"
               alt="Homepage of Omnifood redesign"
@@ -129,133 +138,105 @@
         </div>
       </section>
 
-      <section class="container project-content">
-        <section class="mb-7">
-          <h2 class="heading-secondary mb-3">Accessibility goals</h2>
-          <p class="w-75 mb-5">
-            When I started working on the Omnifood project, I faced a
-            significant challenge: making the website design more inclusive.
-            After using various accessibility tools, I discovered several
-            issues, such as low contrast, small text sizes, and missing
-            alternative text for images. I was determined to improve Omnifood's
-            accessibility rating to comply with Web Content Accessibility
-            Guidelines (WCAG) and make it easier for everyone to navigate the
-            website. This was not just about meeting standards, but about
-            creating an experience that everyone can understand and use.
-          </p>
-          <figure class="d-flex flex-column align-items-center">
+      <section class="container">
+        <section class="row project-content">
+          <div class="col-12 col-md-9">
+            <h2 class="heading-secondary mb-3">Accessibility goals</h2>
+            <p class="mb-5">
+              When I started working on the Omnifood project, I faced a
+              significant challenge: making the website design more inclusive.
+              After using various accessibility tools, I discovered several
+              issues, such as low contrast, small text sizes, and missing
+              alternative text for images. I was determined to improve
+              Omnifood's accessibility rating to comply with Web Content
+              Accessibility Guidelines (WCAG) and make it easier for everyone to
+              navigate the website. This was not just about meeting standards,
+              but about creating an experience that everyone can understand and
+              use.
+            </p>
+          </div>
+          <div class="col-md-12 d-flex flex-column align-items-center">
             <img
               src="images/WAVEScore.png"
               alt="Accessibility score of original Omnifood website"
-              class="img-large"
+              class="img-fluid"
             />
             <figcaption class="mt-2">
               This is WAVE, a web browser plugin. It can identify many
               accessibility and WCAG errors.
             </figcaption>
-          </figure>
-        </section>
-
-        <section class="mb-7">
-          <h2 class="heading-secondary mb-3">Design and Development</h2>
-          <p class="w-75">
-            I worked on two main things to improve Omnifood's website. Firstly,
-            I kept the original user experience in mind while updating it. Then,
-            I redesigned the website using Bootstrap and Sass to make it more
-            flexible and efficient. I learned a lot from YouTube tutorials and
-            experimented with different options to customize Bootstrap for my
-            needs. The new design focused on simplifying the interface and
-            making it easier for assistive technologies to navigate. I paid
-            special attention to the hero section, which is the first thing
-            people see when they visit the website, to make it visually
-            appealing. I also changed the customer review section to be a
-            user-controlled carousel instead of an automatic one.
-          </p>
-          <!-- <p class="w-75">
-            For updating Omnifood's website, I followed a two-part approach.
-            First, I retained the website's original flow. Second, I enhanced
-            its design through the use of Bootstrap and SASS. I learned the
-            process of using Bootstrap and SASS via YouTube videos. This
-            approach allowed me to customize Bootstrap's styles which suited my
-            specific needs. The new layout has removed clutter and now
-            prioritizes accessibility and ease of navigation for screen readers
-            and other assistive technologies. I refined the hero section to put
-            more focus on the image, taking inspiration from the best practices
-            of leading meal delivery services. The hero image and logo were
-            created using Adobe Express to maintain visual continuity with the
-            site's original branding while elevating the overall user
-            experience.
-          </p> -->
-        </section>
-
-        <section class="mb-7">
-          <div class="row gy-5 align-items-center">
-            <div class="col-md-6">
-              <h2 class="heading-secondary mb-3">Before:</h2>
-              <img
-                src="images/originalHomepage.png"
-                alt="Before Redesign"
-                class="mb-5 shadow-sm"
-                style="width: 100%"
-              />
-              <img
-                src="images/originalReviewSection.png"
-                alt="Before Redesign"
-                style="width: 100%"
-                class="shadow-sm"
-              />
-            </div>
-            <div class="col-md-6">
-              <h2 class="heading-secondary mb-3">After:</h2>
-              <img
-                src="images/revisionHomepage.png"
-                alt="Watercolor painting of a sunset over a desert landscape"
-                style="width: 100%"
-                class="mb-5 shadow-sm"
-              />
-              <img
-                src="images/revisionReviewSection.png"
-                alt="Watercolor painting of a sunset over a desert landscape"
-                style="width: 100%"
-                class="shadow-sm"
-              />
-            </div>
           </div>
         </section>
 
-        <section>
-          <h2 class="heading-secondary mb-3">Reflecting</h2>
-          <p class="w-75">
-            I had a great experience working on this project, which reinforced
-            the importance of focusing on accessibility from the beginning of
-            the design and development process. Using tools like Sass helped me
-            streamline the styling process and save time. However, I learned
-            that relying solely on automated accessibility checkers isn't
-            enough. During the contrast assessments, I found some discrepancies
-            that needed manual verification, and it turned out that we were not
-            meeting the WCAG standards. This project was not only a technical
-            challenge but also a journey towards creating a more inclusive
-            digital world. Every step of the way, I improved my skills as a
-            designer and developer and became more committed to making the web
-            accessible to everyone.
-          </p>
-          <!-- <p class="w-75">
-            This project has taught me the importance of prioritizing
-            accessibility right from the planning phase of design. This practice
-            can help save time when coding later on. While working on this
-            project, I meticulously checked the color contrast using the WebAim
-            contrast checker and other accessibility checkers to ensure
-            accessibility in my code. I also realized that not all accessibility
-            checkers are foolproof, and it is essential to manually check the
-            code and design for accessibility issues. During this project, I
-            also learned about Sass, which proved to be a game-changer in terms
-            of optimizing CSS. Adapting Bootstrap's predefined styles with Sass
-            required navigating a learning curve, but it ultimately armed me
-            with powerful techniques to craft an efficient, maintainable, and
-            accessible styling structure. This project was not just about
-            development; it was a journey towards a more inclusive web, and
-            every step was a stride in my evolution as a developer and designer.
-          </p> -->
+        <section class="row project-content">
+          <div class="col-12 col-md-9">
+            <h2 class="heading-secondary mb-3">Design and Development</h2>
+            <p>
+              As I worked on redesigning the Omnifood website, my primary goal
+              was to maintain its original appeal while improving its
+              accessibility. I used Bootstrap and Sass, two tools that I learned
+              by watching tutorials on YouTube. By doing this, I was able to
+              improve the site's aesthetics and functionality, with a focus on
+              making it more user-friendly. I learned to customize the interface
+              to make navigation simpler and easier for those who use assistive
+              technologies. I also corrected the 16 color contrast errors that
+              were present in the initial design. To make sure that the users'
+              needs were prioritized, I designed the hero section in a way that
+              clearly conveys the identity and offerings of Omnifood. This way,
+              users can quickly find what they are looking for. The review
+              section was redesigned as a user-controlled carousel, allowing
+              visitors to read testimonials at their own pace.
+            </p>
+          </div>
+        </section>
+
+        <section class="row project-content">
+          <div class="col-12 col-md-6 gy-5 align-items-center m-0">
+            <h2 class="heading-secondary mb-3">Before:</h2>
+            <img
+              src="images/originalHomepage.png"
+              alt="Before Redesign"
+              class="mb-4 mb-lg-5 shadow-sm img-fluid"
+            />
+            <img
+              src="images/originalReviewSection.png"
+              alt="Before Redesign"
+              class="shadow-sm img-fluid"
+            />
+          </div>
+          <div class="col-12 col-md-6 gy-5 align-items-center mt-5 mt-lg-0">
+            <h2 class="heading-secondary mb-3">After:</h2>
+            <img
+              src="images/revisionHomepage.png"
+              alt="Before Redesign"
+              class="mb-4 mb-lg-5 shadow-sm img-fluid"
+            />
+            <img
+              src="images/revisionReviewSection.png"
+              alt="Before Redesign"
+              class="shadow-sm img-fluid"
+            />
+          </div>
+        </section>
+
+        <section class="row project-content">
+          <div class="col-12 col-md-9">
+            <h2 class="heading-secondary mb-3">Reflecting</h2>
+            <p>
+              I had a great experience working on this project, which reinforced
+              the importance of focusing on accessibility from the beginning of
+              the design and development process. Using tools like Sass helped
+              me streamline the styling process and save time. However, I
+              learned that relying solely on automated accessibility checkers
+              isn't enough. During the contrast assessments, I found some
+              discrepancies that needed manual verification, and it turned out
+              that we were not meeting the WCAG standards. This project was not
+              only a technical challenge but also a journey towards creating a
+              more inclusive digital world. Every step of the way, I improved my
+              skills as a designer and developer and became more committed to
+              making the web accessible to everyone.
+            </p>
+          </div>
         </section>
       </section>
       <div class="container">

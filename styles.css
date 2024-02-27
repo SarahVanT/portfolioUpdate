@@ -242,7 +242,8 @@ p {
 }
 
 .project-content {
-  padding: 0 0.75rem 5rem 0.75rem;
+  padding: 0 0.75rem 0 0.75rem;
+  margin-bottom: 4.5rem;
 }
 
 /* .divider {
