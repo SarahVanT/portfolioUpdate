@@ -96,7 +96,7 @@ header {
 }
 
 .nav-link:focus {
-  outline: 2px dashed #642b69;
+  outline: 3px solid #642b69;
   border-radius: 4px;
   box-shadow: none;
 }
@@ -119,6 +119,10 @@ header {
 
 .project-image {
   box-shadow: 0 2.4rem 4.8rem 0 rgba(0, 0, 0, 0.075);
+}
+
+.project-screenshot {
+  width: 60%;
 }
 
 .stack-list p {
@@ -301,7 +305,7 @@ p {
 }
 
 .button:focus {
-  outline: 2px dashed #642b69;
+  outline: 3px solid #642b69;
   border-radius: 0;
   box-shadow: none;
   outline-offset: 3px;
@@ -334,7 +338,7 @@ p {
 }
 
 .custom-link:focus {
-  outline: 2px solid #642b69;
+  outline: 3px solid #642b69;
 }
 
 .custom-link:focus::after {

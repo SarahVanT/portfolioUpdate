@@ -37,7 +37,7 @@
   }
 
   p {
-    font-size: 1.025rem;
+    font-size: 1.125rem;
     line-height: 1.8;
   }
 
@@ -57,10 +57,6 @@
   .watercolor-painting {
     width: 60%;
   }
-
-  /* .project-content {
-    margin-bottom: 2rem;
-  } */
 
   .project-introduction {
     padding: 4rem 0.75rem;
@@ -88,6 +84,14 @@
 
   .watercolor-painting {
     width: 40%;
+  }
+
+  .project-content {
+    margin-bottom: 2.5rem;
+  }
+
+  .project-introduction img {
+    width: 100%;
   }
 }
 

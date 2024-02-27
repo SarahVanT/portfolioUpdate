@@ -88,42 +88,46 @@
           </div>
         </div>
 
-        <div class="row d-flex justify-content-center align-items-right">
-          <div class="col-12 col-md-2">
+        <div
+          class="d-flex flex-column flex-lg-row justify-content-center align-items-center align-items-lg-start gap-2 gap-lg-5"
+        >
+          <div class="p-2">
             <h2 class="heading-tertiary">Type:</h2>
             <ul class="list-unstyled">
               <li><p>Project redesign</p></li>
             </ul>
           </div>
 
-          <div class="col-12 col-md-2">
+          <div class="p-2">
             <h2 class="heading-tertiary">Stack:</h2>
-            <ul class="">
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <p>Sass</p>
-              <p>Bootstrap</p>
-              <p>Netlify</p>
-              <p>Adobe Express</p>
-              <p>Figma</p>
+            <ul class="list-unstyled">
+              <li><p>Sass</p></li>
+              <li><p>Bootstrap</p></li>
+              <li><p>Netlify</p></li>
+              <li><p>Adobe Express</p></li>
+              <li><p>Figma</p></li>
             </ul>
           </div>
-          <div class="col-12 col-md-2">
+
+          <div class="p-2">
             <h2 class="heading-tertiary">Live:</h2>
-            <a
-              href="https://omnifood-revision.netlify.app/"
-              class="custom-link mb-3"
-              >New site <i class="fas fa-arrow-right" aria-hidden="true"></i
-            ></a>
-            <a
-              href="https://omnifood-vantilburg.netlify.app/"
-              class="custom-link"
-              >Original site
-              <i class="fas fa-arrow-right" aria-hidden="true"></i
-            ></a>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="https://omnifood-revision.netlify.app/"
+                  class="custom-link mb-3"
+                  >New site <i class="fas fa-arrow-right" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://omnifood-vantilburg.netlify.app/"
+                  class="custom-link"
+                  >Original site
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -132,7 +136,7 @@
             <img
               src="images/omnifoodMockup.png"
               alt="Homepage of Omnifood redesign"
-              style="width: 60%"
+              class="project-screenshot"
             />
           </div>
         </div>
@@ -156,15 +160,17 @@
             </p>
           </div>
           <div class="col-md-12 d-flex flex-column align-items-center">
-            <img
-              src="images/WAVEScore.png"
-              alt="Accessibility score of original Omnifood website"
-              class="img-fluid"
-            />
-            <figcaption class="mt-2">
-              This is WAVE, a web browser plugin. It can identify many
-              accessibility and WCAG errors.
-            </figcaption>
+            <figure class="figure">
+              <img
+                src="images/WAVEScore.png"
+                class="figure-img img-fluid rounded shadow-sm"
+                alt="WAVE accessibility report snapshot for the original Omnifood website, showing many errors and alerts"
+              />
+              <figcaption class="figure-caption">
+                This is WAVE, a web browser plugin. It can identify many
+                accessibility and WCAG errors.
+              </figcaption>
+            </figure>
           </div>
         </section>
 
@@ -191,30 +197,30 @@
         </section>
 
         <section class="row project-content">
-          <div class="col-12 col-md-6 gy-5 align-items-center m-0">
+          <div class="col-12 col-md-6 gap-5 align-items-center m-0">
             <h2 class="heading-secondary mb-3">Before:</h2>
             <img
               src="images/originalHomepage.png"
-              alt="Before Redesign"
-              class="mb-4 mb-lg-5 shadow-sm img-fluid"
+              alt="Original Omnifood homepage design with a busy layout"
+              class="mb-4 mb-lg-5 shadow-sm img-fluid rounded"
             />
             <img
               src="images/originalReviewSection.png"
-              alt="Before Redesign"
-              class="shadow-sm img-fluid"
+              alt="Close-up of the review section, showing customer testimonials"
+              class="shadow-sm img-fluid rounded"
             />
           </div>
-          <div class="col-12 col-md-6 gy-5 align-items-center mt-5 mt-lg-0">
+          <div class="col-12 col-md-6 gap-5 align-items-center mt-5 mt-lg-0">
             <h2 class="heading-secondary mb-3">After:</h2>
             <img
               src="images/revisionHomepage.png"
-              alt="Before Redesign"
-              class="mb-4 mb-lg-5 shadow-sm img-fluid"
+              alt="Updated homepage with improved accessibility and a more spacious layout"
+              class="mb-4 mb-lg-5 shadow-sm img-fluid rounded"
             />
             <img
               src="images/revisionReviewSection.png"
-              alt="Before Redesign"
-              class="shadow-sm img-fluid"
+              alt="Updated review section with testimonials presented in a user-friendly carousel"
+              class="shadow-sm img-fluid rounded"
             />
           </div>
         </section>
