@@ -1,6 +1,6 @@
 function isInViewport(element) {
   const rect = element.getBoundingClientRect();
-  const offset = 20; // Pixels before the element is in view
+  const offset = 300; // Pixels before the element is in view
   return (
     rect.top >= 0 - offset &&
     rect.left >= 0 &&
