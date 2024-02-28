@@ -147,6 +147,15 @@
   .watercolor-painting {
     width: 40%;
   }
+
+  .project-content,
+  .section-main {
+    margin-bottom: 0.2rem;
+  }
+
+  .section-main {
+    margin-top: 0.2rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

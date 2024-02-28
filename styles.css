@@ -214,10 +214,6 @@ p {
   padding: 6rem 3rem;
 }
 
-.section-skills {
-  padding: 5rem 0.75rem;
-}
-
 .section-cta {
   padding: 5rem 0 5rem 0;
 }
@@ -375,6 +371,10 @@ footer {
   margin: 0 auto;
 }
 
+.row.text-center.mt-5 > li:nth-child(-n + 8) {
+  margin-bottom: 1rem;
+}
+
 .skill-icon {
   font-size: 3.5rem; /* Adjust the value as needed */
   /* other styles */
@@ -396,12 +396,6 @@ ul.row {
   /* Remove the default padding on the left */
   padding-left: 0;
   /* Align text to the left instead of center */
-}
-
-li.col-6.col-sm-3.col-md-3 {
-  /* Remove padding or margin from the list items if necessary */
-  padding: 0;
-  margin: 0;
 }
 
 .w-60 {
