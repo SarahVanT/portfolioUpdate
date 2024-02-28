@@ -70,18 +70,11 @@
     <main id="main">
       <section class="section-hero">
         <div class="container container-hero">
-          <div class="row align-items-center">
+          <div
+            class="row d-flex flex-column-reverse flex-lg-row align-items-center"
+          >
             <div
-              class="col-12 col-md-12 col-lg-6 order-lg-2 text-center text-lg-end img-box"
-            >
-              <img
-                src="images/hero-img.png"
-                class="mb-6 mb-md-0 hero-img"
-                alt="Closeup of Sarah"
-              />
-            </div>
-            <div
-              class="col-12 col-md-12 col-lg-6 order-lg-1 mt-sm-4 mt-lg-0 text-center text-md-center text-lg-start text-box"
+              class="col-12 col-lg-6 mt-4 mt-lg-0 text-center text-md-center text-lg-start text-box"
             >
               <!-- Hero Heading -->
               <h1 class="heading-primary mb-2 mb-lg-4 text-container">
@@ -95,30 +88,35 @@
                 accessible for everyone.
               </p>
             </div>
+            <div class="col-12 col-lg-6 text-center text-lg-end img-box">
+              <img
+                src="images/hero-img.png"
+                class="mb-6 mb-md-0 hero-img"
+                alt="Closeup of Sarah"
+              />
+            </div>
           </div>
         </div>
       </section>
       <div class="container">
         <div class="divider" aria-hidden="true"></div>
       </div>
-
+      <!-- Projects -->
       <section class="container section-main" id="projects">
-        <h2 class="heading-secondary mb-2">Check out my projects</h2>
-
-        <p class="mb-4">
-          Dive into my latest projects where coding meets design. Take a look
-          and see what grabs your attention!
+        <h2 class="heading-secondary mb-2 text-capitalize">
+          Check out my projects
+        </h2>
+        <p class="m-0">
+          Dive into my latest projects where coding meets design.
         </p>
-
-        <!-- <div class="container"> -->
-        <!-- Cards -->
-        <div class="row g-5">
-          <div class="col-12 col-md-6 col-lg-6">
+        <p class="mb-5">Take a look and see what grabs your attention!</p>
+        <div class="row g-5 justify-content-center">
+          <div class="col-8 col-lg-6">
             <div class="card h-100">
               <img
                 src="images/omnifoodProject.png"
-                alt="Weather application showing San Francisco's current weather: 12°C, overcast clouds."
-                class="card-image-top mb-4"
+                alt="Omnifood project showcasing a redesigned, accessible meal ordering platform."
+                class="mb-4 img-fluid rounded shadow-sm"
               />
               <div class="card-body">
                 <h3 class="card-title heading-tertiary">
@@ -131,81 +129,76 @@
                 </p>
                 <a href="omnifood.html" class="button"
                   >Omnifood project insights
-                  <span
-                    ><i
-                      class="fa-solid fa-arrow-right"
-                      aria-hidden="true"
-                    ></i></span
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
                 ></a>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-6">
+          <div class="col-8 col-lg-6">
             <div class="card h-100">
               <img
                 src="images/aiAccessibilityGen.png"
-                alt="AI Accessibility Generator page with radio buttons for WCAG content selection."
-                class="card-image-top mb-4"
+                alt="AI Accessibility Generator interface with options for WCAG guidelines."
+                class="mb-4 img-fluid rounded shadow-sm"
               />
               <div class="card-body">
                 <h3 class="card-title heading-tertiary">
-                  AI Accessiblity Generator
+                  AI Accessibility Generator
                 </h3>
                 <p class="card-text my-3">
                   Creating accessible content is effortless with the WCAG
                   Generator. Simply choose your category, generate guidelines,
                   and deepen your understanding of accessibility.
                 </p>
-
                 <a href="ai.html" class="button"
                   >Explore AI Generator
-                  <span
-                    ><i
-                      class="fa-solid fa-arrow-right"
-                      aria-hidden="true"
-                    ></i></span
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i
                 ></a>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <div class="container">
         <div class="divider" aria-hidden="true"></div>
       </div>
+      <!-- Learn More -->
       <section class="container section-main section-about-me text-start">
-        <div class="row gy-5 align-items-center">
-          <div class="col-12 col-md-6 about-me-text">
-            <h2 class="heading-secondary mb-3">Learn more about me</h2>
+        <div class="row gap-5 gap-lg-0 align-items-center">
+          <div class="col-12 col-lg-6 about-me-text">
+            <h2 class="heading-secondary text-capitalize mb-3">
+              Learn more about me
+            </h2>
+
             <p>
-              Hi there! I'm a Dayton-based coder and designer who loves creating
-              beautiful and accessible designs. I discovered my passion for
-              coding as a teenager and have since tackled environmental and
-              occupational health challenges while serving in the United States
-              Air Force. I've also participated in coding workshops, a UX/UI
-              bootcamp, and accessibility design courses. When I'm not coding,
-              you'll usually find me practicing yoga to find calmness, cooking
-              to satisfy my curiosity, or painting to express my creativity. I'm
-              always eager to learn and grow, both personally and
-              professionally.
+              Hi there! I'm a coder and designer based in Dayton, focusing on
+              designing with empathy and developing for accessibility. I have
+              experience tackling environmental and occupational health
+              challenges while serving in the United States Air Force. I've also
+              participated in coding workshops, a UX/UI Bootcamp, and
+              accessibility courses. When I'm not coding, you can find me
+              practicing yoga, walking to find peace, cooking to satisfy my
+              curiosity, or painting to express my creativity. I'm always eager
+              to learn and grow, personally and professionally.
             </p>
-            <a href="about.html" class="custom-link"
-              >Read full bio
-              <i class="fas fa-arrow-right" aria-hidden="true"></i
-            ></a>
+            <a href="about.html" class="custom-link">
+              Read full bio
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
           </div>
           <div
-            class="col-12 col-md-6 d-flex justify-content-center justify-content-lg-end flex-md-row align-items-center about-me-paintings gap-3"
+            class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end flex-md-row align-items-center about-me-paintings gap-3"
           >
             <img
               src="images/watercolorDesert.png"
-              alt="Watercolor painting of a sunset over a desert landscape"
-              class="watercolor-painting"
+              alt="Watercolor painting by Sarah of a sunset over a desert landscape"
+              class="watercolor-painting img-fluid"
             />
             <img
               src="images/watercolorForest.png"
-              alt="Watercolor painting of a tranquil, misty forest"
-              class="watercolor-painting"
+              alt="Watercolor painting by Sarah of a tranquil, misty forest"
+              class="watercolor-painting img-fluid"
             />
           </div>
         </div>
@@ -217,11 +210,9 @@
         class="container section-cta text-center d-flex flex-column"
         id="contact"
       >
-        <h2 class="heading-secondary mb-3">Thanks for stopping by!</h2>
-        <p>
-          I appreciate you checking out my work!<br />Feel free to email me or
-          connect through LinkedIn.
-        </p>
+        <h2 class="heading-secondary mb-3">Thanks for Stopping By!</h2>
+        <p class="mb-0">I appreciate you checking out my work!</p>
+        <p>Feel free to email me or connect through LinkedIn.</p>
 
         <div class="social-links">
           <a href="mailto:sarahvantilburg1@outlook.com" class="button"

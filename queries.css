@@ -30,6 +30,7 @@
 
   .heading-secondary {
     font-size: 1.9rem;
+    line-height: 140%;
   }
 
   .heading-tertiary {
@@ -86,8 +87,13 @@
     width: 40%;
   }
 
-  .project-content {
+  .project-content,
+  .section-main {
     margin-bottom: 2.5rem;
+  }
+
+  .section-main {
+    margin-top: 2.5rem;
   }
 
   .project-introduction img {
@@ -115,9 +121,9 @@
     padding: 0 3rem;
   }
 
-  .section-main {
+  /* .section-main {
     padding: 4rem 1.5rem 3rem 1.5rem;
-  }
+  } */
 
   .section-skills {
     padding: 3rem 1.5rem;

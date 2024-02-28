@@ -214,9 +214,6 @@ p {
   padding: 6rem 3rem;
 }
 
-.section-main {
-  padding: 5rem 0.75rem;
-}
 .section-skills {
   padding: 5rem 0.75rem;
 }
@@ -245,9 +242,14 @@ p {
   padding: 5rem 0.75rem;
 }
 
-.project-content {
+.project-content,
+.section-main {
   padding: 0 0.75rem 0 0.75rem;
   margin-bottom: 4.5rem;
+}
+
+.section-main {
+  margin-top: 4.5rem;
 }
 
 /* .divider {
@@ -423,15 +425,13 @@ li.col-6.col-sm-3.col-md-3 {
 }
 
 /* Animations */
-.img-box,
-.about-me-paintings {
+.img-box {
   transform: translateX(10%); /* Starts off the right side of the screen */
   opacity: 0;
   transition: transform 0.8s ease-out, opacity 0.5s;
 }
 
-.text-box,
-.about-me-text {
+.text-box {
   transform: translateX(-10%); /* Starts off the left side of the screen */
   opacity: 0;
   transition: transform 0.8s ease-out, opacity 0.5s;
