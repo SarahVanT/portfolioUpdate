@@ -222,10 +222,6 @@ p {
   padding: 5rem 0;
 }
 
-.section-main p,
-.section-skills p {
-  max-width: 35rem;
-}
 .section-main li {
   max-width: 35rem;
 }
@@ -242,6 +238,7 @@ p {
 .section-main {
   padding: 0 0.75rem 0 0.75rem;
   margin-bottom: 4.5rem;
+  margin-top: 4.5rem;
 }
 
 .section-main {

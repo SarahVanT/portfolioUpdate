@@ -56,9 +56,9 @@
     gap: 1.9rem;
   }
 
-  .watercolor-painting {
+  /* .watercolor-painting {
     width: 60%;
-  }
+  } */
 
   .project-introduction {
     padding: 4rem 0.75rem;
@@ -88,9 +88,9 @@
     margin: 3rem 0;
   }
 
-  .watercolor-painting {
+  /* .watercolor-painting {
     width: 40%;
-  }
+  } */
 
   .project-content,
   .section-main {
@@ -107,6 +107,10 @@
 }
 
 @media (max-width: 575px) {
+  .heading-secondary {
+    font-size: 1.6rem;
+  }
+
   .logo {
     height: 3rem;
   }
@@ -149,13 +153,14 @@
     padding: 0.7rem 1rem;
   }
 
-  .watercolor-painting {
+  /* .watercolor-painting {
     width: 40%;
-  }
+  } */
 
   .project-content,
   .section-main {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
   }
 
   .section-main {
