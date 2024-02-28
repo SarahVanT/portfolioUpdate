@@ -9,8 +9,9 @@
 
 @media (max-width: 991px) {
   .section-hero {
-    padding: 4rem 0;
+    margin: 4rem 0;
   }
+
   .container-hero {
     padding: 0 3rem;
   }
@@ -83,6 +84,10 @@
     transition: none;
   }
 
+  .section-hero {
+    margin: 3rem 0;
+  }
+
   .watercolor-painting {
     width: 40%;
   }
@@ -110,7 +115,7 @@
     width: 70%;
   }
   .section-hero {
-    padding: 2rem 0;
+    margin: 2rem 0;
   }
 
   .heading-primary {
@@ -150,11 +155,12 @@
 
   .project-content,
   .section-main {
-    margin-bottom: 0.2rem;
+    margin-bottom: 2rem;
   }
 
   .section-main {
-    margin-top: 0.2rem;
+    margin-top: 2rem;
+    padding: 0rem 0.75rem;
   }
 }
 

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sarah VanTilburg: Designing with empathy and developing for accessibility. From concept to code, I focus on making the web welcoming and accessible for everyone"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Welcome | Sarah VanTilburg Portfolio</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="queries.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#main" class="skip-link">Skip to main content</a>
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a href="index.html" class="navbar-brand">
+            <img
+              src="testLogo3.png"
+              alt="Sarah VanTilburg logo"
+              class="logo d-line-block align-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="nav navbar-nav ms-auto text-center">
+              <li>
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="#projects" class="nav-link">Projects</a>
+              </li>
+              <li>
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li>
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="container section-main">
+        <div class="d-flex flex-column align-items-center">
+          <h1 class="heading-primary primary-color text-center mb-3">
+            AI Accessibility Generator
+          </h1>
+          <p class="mb-4">
+            The AI Accessibility Generator is a custom JavaScript application I
+            developed over one week for the SheCodes AI Class. Unlike other AI
+            generators that create content such as poems or jokes, this project
+            focuses on generating the Web Content Accessibility Guidelines
+            (WCAG). I aimed to provide developers, designers, and tech
+            professionals with a better understanding of these standards.
+          </p>
+        </div>
+
+        <div
+          class="d-flex flex-column flex-lg-row justify-content-center text-center text-lg-start align-items-lg-start gap-2 gap-lg-5"
+        >
+          <div class="p-2">
+            <h2 class="heading-tertiary">Type:</h2>
+            <ul class="list-unstyled">
+              <li><p>SheCodes project</p></li>
+            </ul>
+          </div>
+
+          <div class="p-2">
+            <h2 class="heading-tertiary">Stack:</h2>
+            <ul class="list-unstyled">
+              <li><p>JavaScript</p></li>
+              <li><p>AI API</p></li>
+              <li><p>Bootstrap</p></li>
+              <li><p>Netlify</p></li>
+              <li><p>Figma</p></li>
+              <li><p>unDraw</p></li>
+            </ul>
+          </div>
+
+          <div class="p-2">
+            <h2 class="heading-tertiary">Live:</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="https://omnifood-revision.netlify.app/"
+                  class="custom-link mb-3"
+                  >New site <i class="fas fa-arrow-right" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://omnifood-vantilburg.netlify.app/"
+                  class="custom-link"
+                  >Original site
+                  <i class="fas fa-arrow-right" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center mt-5">
+            <img
+              src="images/Frame 62.png"
+              alt="AI Accessibility Generator screenshot"
+              class="project-screenshot"
+            />
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <div class="divider" aria-hidden="true"></div>
+      </div>
+      <section
+        class="container section-cta text-center d-flex flex-column"
+        id="contact"
+      >
+        <h2 class="heading-secondary mb-3">Thanks for Stopping By!</h2>
+        <p class="mb-0">I appreciate you checking out my work!</p>
+        <p>Feel free to email me or connect through LinkedIn.</p>
+
+        <div class="social-links">
+          <a href="mailto:sarahvantilburg1@outlook.com" class="button"
+            >Email me
+            <span
+              ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
+          ></a>
+          <a href="https://www.linkedin.com/in/sarah-vantilburg/" class="button"
+            >LinkedIn profile
+            <span
+              ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
+          ></a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="container text-center p-2">
+        <p class="copyright">
+          Website Designed and Developed by Sarah VanTilburg
+        </p>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/2e89d80a8b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
