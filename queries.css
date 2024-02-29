@@ -25,10 +25,6 @@
     width: 70%;
   }
 
-  .section-main {
-    padding: 5rem 1rem;
-  }
-
   .heading-secondary {
     font-size: 1.9rem;
     line-height: 140%;
@@ -56,29 +52,19 @@
     gap: 1.9rem;
   }
 
-  /* .watercolor-painting {
-    width: 60%;
-  } */
-
   .project-introduction {
     padding: 4rem 0.75rem;
   }
 }
 
 @media (max-width: 767px) {
-  .img-sm-size {
-    width: 80%;
-  }
-
   .heading-primary {
     font-size: 2rem;
   }
 
   /* no animation */
   .hero-img-box,
-  .hero-text-box,
-  .about-me-text,
-  .about-me-paintings {
+  .hero-text-box {
     transform: none;
     opacity: 1;
     transition: none;
@@ -88,20 +74,12 @@
     margin: 3rem 0;
   }
 
-  /* .watercolor-painting {
-    width: 40%;
-  } */
   .watercolor-painting {
     width: 30%;
   }
 
-  .project-content,
-  .section-main {
+  .project-content {
     margin-bottom: 2.5rem;
-  }
-
-  .section-main {
-    margin-top: 2.5rem;
   }
 
   .project-introduction img {
@@ -118,9 +96,6 @@
     height: 3rem;
   }
 
-  .img-sm-size {
-    width: 70%;
-  }
   .section-hero {
     margin: 2rem 0;
   }
@@ -131,14 +106,6 @@
 
   .container-hero {
     padding: 0 3rem;
-  }
-
-  /* .section-main {
-    padding: 4rem 1.5rem 3rem 1.5rem;
-  } */
-
-  .section-skills {
-    padding: 3rem 1.5rem;
   }
 
   .section-cta {
@@ -156,19 +123,9 @@
     padding: 0.7rem 1rem;
   }
 
-  /* .watercolor-painting {
-    width: 40%;
-  } */
-
-  .project-content,
-  .section-main {
+  .project-content {
     margin-bottom: 2.5rem;
     margin-top: 2.5rem;
-  }
-
-  .section-main {
-    margin-top: 2rem;
-    padding: 0rem 0.75rem;
   }
 }
 
