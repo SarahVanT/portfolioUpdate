@@ -91,6 +91,9 @@
   /* .watercolor-painting {
     width: 40%;
   } */
+  .watercolor-painting {
+    width: 30%;
+  }
 
   .project-content,
   .section-main {
@@ -159,8 +162,8 @@
 
   .project-content,
   .section-main {
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
 
   .section-main {

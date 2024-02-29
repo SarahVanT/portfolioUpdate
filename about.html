@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta
       name="description"
-      content="Meet Sarah VanTilburg, your go-to Front-End Developer and Designer for projects that prioritize user experience and web accessibility."
+      content="Learn about Sarah VanTilburg's story, background, and skills. Sarah VanTilburg - Designing with empathy and developing for accessibility."
     />
-    <title>About Me - Sarah VanTilburg Portfolio</title>
+    <title>About Me | Sarah VanTilburg Portfolio</title>
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -69,11 +69,13 @@
     </header>
 
     <main id="main">
-      <section class="container section-main">
-        <div class="row align-items-center">
+      <section class="container">
+        <section
+          class="row project-content d-flex flex-column-reverse flex-lg-row align-items-center"
+        >
           <div class="col-12 col-lg-6 text-box">
             <article class="mb-6 mb-md-0">
-              <h1 class="heading-primary text-center text-md-start mb-3">
+              <h1 class="heading-primary text-center text-md-start mb-2">
                 Hello, I'm <span class="primary-color">Sarah</span>
               </h1>
               <p>
@@ -91,29 +93,28 @@
                 video game Neopets. Since then, I have attended several coding
                 workshops, a UX/UI Bootcamp, and completed accessibility courses
                 to cater to a diverse audience. When I'm not coding, you can
-                usually find me practicing yoga to find calmness, cooking to
+                find me practicing yoga, walking to find peace, cooking to
                 satisfy my curiosity, or painting to express my creativity. I'm
-                always eager to learn and grow, both personally and
-                professionally.
+                always eager to learn and grow, personally and professionally.
               </p>
             </article>
           </div>
-          <div class="col-12 col-lg-6 text-center text-lg-end img-box">
+          <div
+            class="col-12 col-lg-6 text-center text-lg-end img-box mb-5 mb-md-0"
+          >
             <img
               src="images/hero-img.png"
               alt="Closeup of Sarah"
-              class="img-large"
+              class="hero-img"
             />
           </div>
+        </section>
+
+        <div class="container">
+          <div class="divider" aria-hidden="true"></div>
         </div>
-      </section>
 
-      <div class="container">
-        <div class="divider" aria-hidden="true"></div>
-      </div>
-
-      <section class="container section-main">
-        <div class="row">
+        <section class="row project-content">
           <div class="col-12 col-md-6">
             <h2 class="heading-secondary mb-3">My Toolbox</h2>
             <p>
@@ -123,91 +124,117 @@
               users.
             </p>
           </div>
-        </div>
-        <ul class="row text-center mt-5 skill-list">
-          <li class="col-6 col-sm-3 col-md-3">
-            <i
-              class="fa-solid fa-universal-access skill-icon"
-              aria-hidden="true"
-            ></i>
-            <p class="skill-text">Accessibility</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i class="fa-brands fa-html5 skill-icon" aria-hidden="true"></i>
-            <p class="skill-text">HTML</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i class="fa-brands fa-css3-alt skill-icon" aria-hidden="true"></i>
-            <p class="skill-text">CSS</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i class="fa-brands fa-sass skill-icon"></i>
-            <p class="skill-text">Sass</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i class="fa-brands fa-js skill-icon" aria-hidden="true"></i>
-            <p class="skill-text">JavaScript</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i class="fa-brands fa-bootstrap skill-icon" aria-hidden="true"></i>
-            <p class="skill-text">Bootstrap</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i
-              class="fa-solid fa-mobile-button skill-icon"
-              aria-hidden="true"
-            ></i>
-            <p class="skill-text">Responsive Design</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i class="fa-brands fa-github skill-icon" aria-hidden="true"></i>
-            <p class="skill-text">GitHub</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i
-              class="fa-solid fa-laptop-code skill-icon"
-              aria-hidden="true"
-            ></i>
-            <p class="skill-text">VS Code</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i class="fa-brands fa-figma skill-icon" aria-hidden="true"></i>
-            <p class="skill-text">Figma</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i class="fa-brands fa-google skill-icon" aria-hidden="true"></i>
-            <p class="skill-text">SEO</p>
-          </li>
-          <li class="col-6 col-sm-3 col-md-3">
-            <i class="fa-brands fa-wordpress skill-icon" aria-hidden="true"></i>
-            <p class="skill-text">WordPress</p>
-          </li>
-        </ul>
-      </section>
 
-      <div class="container">
-        <div class="divider" aria-hidden="true"></div>
-      </div>
+          <div class="col-12 mt-5 d-flex justify-content-center">
+            <ul class="row text-center skill-list">
+              <li class="col-3 col-md-3">
+                <i
+                  class="fa-solid fa-universal-access skill-icon"
+                  aria-hidden="true"
+                ></i>
+                <p class="skill-text">Accessibility</p>
+              </li>
+              <li class="col-3 col-md-3">
+                <i class="fa-brands fa-html5 skill-icon" aria-hidden="true"></i>
+                <p class="skill-text">HTML</p>
+              </li>
+              <li class="col-3 col-md-3">
+                <i
+                  class="fa-brands fa-css3-alt skill-icon"
+                  aria-hidden="true"
+                ></i>
+                <p class="skill-text">CSS</p>
+              </li>
+              <li class="col-3 col-md-3">
+                <i class="fa-brands fa-sass skill-icon"></i>
+                <p class="skill-text">Sass</p>
+              </li>
+              <li class="col-3 col-md-3">
+                <i class="fa-brands fa-js skill-icon" aria-hidden="true"></i>
+                <p class="skill-text">JavaScript</p>
+              </li>
+              <li class="col-3 col-md-3">
+                <i
+                  class="fa-brands fa-bootstrap skill-icon"
+                  aria-hidden="true"
+                ></i>
+                <p class="skill-text">Bootstrap</p>
+              </li>
+              <li class="col-3 col-md-3">
+                <i
+                  class="fa-solid fa-mobile-button skill-icon"
+                  aria-hidden="true"
+                ></i>
+                <p class="skill-text">Responsive Design</p>
+              </li>
+              <li class="col-3 col-md-3">
+                <i
+                  class="fa-brands fa-github skill-icon"
+                  aria-hidden="true"
+                ></i>
+                <p class="skill-text">GitHub</p>
+              </li>
+              <li class="col-3 col-md-3">
+                <i
+                  class="fa-solid fa-laptop-code skill-icon"
+                  aria-hidden="true"
+                ></i>
+                <p class="skill-text">VS Code</p>
+              </li>
+              <li class="col-3 col-md-3">
+                <i class="fa-brands fa-figma skill-icon" aria-hidden="true"></i>
+                <p class="skill-text">Figma</p>
+              </li>
+              <li class="col-3 col-md-3">
+                <i
+                  class="fa-brands fa-google skill-icon"
+                  aria-hidden="true"
+                ></i>
+                <p class="skill-text">SEO</p>
+              </li>
+              <li class="col-3 col-md-3">
+                <i
+                  class="fa-brands fa-wordpress skill-icon"
+                  aria-hidden="true"
+                ></i>
+                <p class="skill-text">WordPress</p>
+              </li>
+            </ul>
+          </div>
+        </section>
 
-      <section
-        class="container section-cta text-center d-flex flex-column"
-        id="contact"
-      >
-        <h2 class="heading-secondary mb-3">Thanks for stopping by!</h2>
-        <p class="mb-0">I appreciate you checking out my work!</p>
-        <p>Feel free to email me or connect through LinkedIn.</p>
-        <div class="social-links">
-          <a href="mailto:sarahvantilburg1@outlook.com" class="button"
-            >Email me
-            <span
-              ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
-          ></a>
-          <a href="https://www.linkedin.com/in/sarah-vantilburg/" class="button"
-            >LinkedIn profile
-            <span
-              ><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span
-          ></a>
+        <div class="container">
+          <div class="divider" aria-hidden="true"></div>
         </div>
+
+        <section
+          class="container section-cta text-center d-flex flex-column"
+          id="contact"
+        >
+          <h2 class="heading-secondary mb-3">Thanks for stopping by!</h2>
+          <p class="mb-0">I appreciate you checking out my work!</p>
+          <p>Feel free to email me or connect through LinkedIn.</p>
+          <div class="social-links">
+            <a href="mailto:sarahvantilburg1@outlook.com" class="button"
+              >Email me
+              <span
+                ><i
+                  class="fa-solid fa-arrow-right"
+                  aria-hidden="true"
+                ></i></span
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/sarah-vantilburg/"
+              class="button"
+              >LinkedIn profile
+              <span
+                ><i
+                  class="fa-solid fa-arrow-right"
+                  aria-hidden="true"
+                ></i></span
+            ></a>
+          </div>
+        </section>
       </section>
     </main>
     <footer>

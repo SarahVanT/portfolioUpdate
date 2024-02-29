@@ -368,9 +368,9 @@ footer {
   margin: 0 auto;
 }
 
-.row.text-center.mt-5 > li:nth-child(-n + 8) {
+/* .row.text-center.mt-5 > li:nth-child(-n + 8) {
   margin-bottom: 1rem;
-}
+} */
 
 .skill-icon {
   font-size: 3.5rem; /* Adjust the value as needed */
